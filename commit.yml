@@ -2,16 +2,418 @@
 branches: {
   }
 fileChange:
-  /音乐播放器:
-    newFile: !uuid 'f3fdb13162e9c5070ad431875954134b4b1391ec'
-    oldFile: !uuid '86d4b86c26566cdee5bffe71a3a74c3016385ea8'
-  /音乐播放器/README.md:
+  /高并发内存池:
+    newFile: !uuid '266fd6728021c546e4d368cedfddcffb2cf579e4'
+    oldFile: null
+  /高并发内存池/README.md:
     newFile: !uuid '6d17402792c44471e26c7a9e5d70d3b01ce84d2e'
     oldFile: null
-  /音乐播放器/企业微信.jpg:
+  /高并发内存池/企业微信.jpg:
     newFile: !uuid 'babcc141033f43a4ed96510e69a4f2d9fbe045ec'
     oldFile: null
-gitCommitId: !uuid 'f1923a25faf3ca2df07dc07c2327c2ccdeee84b7'
+  /高并发内存池/工程项目代码:
+    newFile: !uuid '43df2070cdf0ed6c49c45a45739fae25910ad5d2'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool:
+    newFile: !uuid 'dd722397ce3bd325ba3c55cd13971055c946ba93'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool:
+    newFile: !uuid '4dec44a46067243ca545593129b70bb565971f76'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool.psess:
+    newFile: !uuid 'b34572c7a251dfe22ed0fc07fb39f2dc8b054fe7'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool.sln:
+    newFile: !uuid '59e59ab1fa0d4b852ae756c2df26bc97e5b002d5'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool.v12.suo:
+    newFile: !uuid '7040452a2265ff6edec7463a20da57bc60e3eb9d'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Benchmark.cpp:
+    newFile: !uuid '8b9264c87cd0fbe1b319932abbf8943f6664863e'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/CentralCache.cpp:
+    newFile: !uuid '564c0d49818b7dd70d03d54fa148a52d3fcd90b6'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/CentralCache.h:
+    newFile: !uuid 'fa2c9bb1441e23546c2b9c7b3044ba0f5dc5e182'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Common.h:
+    newFile: !uuid 'a8a814fc8e88b06fc6ad7245c031fb12b657e7b8'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/ConcurrentAlloc.h:
+    newFile: !uuid '44a61f1e1a9b2dad2f83ebd6fba18a66ee2a3994'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/ConcurrentMemoryPool.vcxproj:
+    newFile: !uuid 'ab8af0e7424432f0f5604bfe095a102b832be182'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/ConcurrentMemoryPool.vcxproj.filters:
+    newFile: !uuid 'adbfb0183a932ec608cf836930b5fceb2433dffe'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Debug:
+    newFile: !uuid '071f0673bab1c5af2c562f22f04829b7f4ee8974'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Debug/Benchmark.obj:
+    newFile: !uuid '66d4c1b5cc37b3524c177c27e086f8c0b11a0903'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Debug/CentralCache.obj:
+    newFile: !uuid '1481487375cefe28860020111ca08dd711ce0c81'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Debug/Concurre.AF8B9F16.tlog:
+    newFile: !uuid '41c3d44e2515d19623f4eba15a6a15a7125c17b3'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Debug/Concurre.AF8B9F16.tlog/CL.read.1.tlog:
+    newFile: !uuid '85ff707b6056ec9472deb36b41eb73468d4a51e4'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Debug/Concurre.AF8B9F16.tlog/CL.write.1.tlog:
+    newFile: !uuid 'a020ea617c75b569e3baa89da4a2d5e807799aa3'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Debug/Concurre.AF8B9F16.tlog/ConcurrentMemoryPool.lastbuildstate:
+    newFile: !uuid '359de68c2dfe581db6875731122d049c922d2e40'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Debug/Concurre.AF8B9F16.tlog/cl.command.1.tlog:
+    newFile: !uuid '20ff6906fd32f331eb7cfcf775b888c2a715a594'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Debug/Concurre.AF8B9F16.tlog/link.command.1.tlog:
+    newFile: !uuid '15484198168a1781b3d79f085197d2c1a9611325'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Debug/Concurre.AF8B9F16.tlog/link.read.1.tlog:
+    newFile: !uuid 'a2129869077054e2ff990583a13f4bd2537b1f45'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Debug/Concurre.AF8B9F16.tlog/link.write.1.tlog:
+    newFile: !uuid 'dfa0895040a6ca72cbfd767cdcbabcd3077f5f02'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Debug/ConcurrentMemoryPool.Build.CppClean.log:
+    newFile: !uuid '4f3ad85d9390885e375d71484184c7c34f317b42'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Debug/ConcurrentMemoryPool.log:
+    newFile: !uuid 'e2c0ecbe1f92fa27452bdc2f18eb0dbe13377a7e'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Debug/PageCache.obj:
+    newFile: !uuid '14c762c9a521c92b9b55a64c0f558a854e4fb3dc'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Debug/ThreadCache.obj:
+    newFile: !uuid '7a8dab551ee536544e7afc21b9de9d0edf066bbb'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Debug/UnitTest.obj:
+    newFile: !uuid '19ff32eac494dadff1e09dd1ddc0dd3d4bd459f6'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Debug/vc120.idb:
+    newFile: !uuid '6c8de85850f0b8b7a9c6e84eb42d89bdc1d2ac71'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Debug/vc120.pdb:
+    newFile: !uuid '3c18c46f9eb58095124d4847ae3f8a6d9168be01'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/ObjectPool.h:
+    newFile: !uuid '5596f793f83d1d19078e181e7d774048234f026c'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/PageCache.cpp:
+    newFile: !uuid '64741a67cccbe755e5192637ee8ad8aa4d2b4869'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/PageCache.h:
+    newFile: !uuid 'ff967d4172f64608b998e262b25cae80ad6fa2a8'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/PageMap.h:
+    newFile: !uuid 'f72c6fb7515b829d21f09e9a560b6a8a74572a39'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Release:
+    newFile: !uuid '84797f28a5359349386a55388a09b320e540a788'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Release/Benchmark.obj:
+    newFile: !uuid '0464d4cca4b7be9275715d45cac042894f7f30fa'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Release/CentralCache.obj:
+    newFile: !uuid '0274c4cd4ca2188f6f42d7de0bbd525dd8d8be8f'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Release/Concurre.AF8B9F16.tlog:
+    newFile: !uuid '0787364501d41f4f531b08237dd2b46733f58c06'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Release/Concurre.AF8B9F16.tlog/CL.read.1.tlog:
+    newFile: !uuid '737725dbc0a3a392f3e49951755847a1ac2e29e3'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Release/Concurre.AF8B9F16.tlog/CL.write.1.tlog:
+    newFile: !uuid '58c9434e637e52c8a9e15ce5f29ff7d33bab0fd4'
+    oldFile: null
+  ? /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Release/Concurre.AF8B9F16.tlog/ConcurrentMemoryPool.lastbuildstate
+  : newFile: !uuid '8a9f6499f17382dc1ae9058b091e74cba3cda0e4'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Release/Concurre.AF8B9F16.tlog/cl.command.1.tlog:
+    newFile: !uuid 'dd6734317da8a398679db436596fd95fc586d73e'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Release/Concurre.AF8B9F16.tlog/link.command.1.tlog:
+    newFile: !uuid '9266460783e82efbcdac182be8c51be64a199ed8'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Release/Concurre.AF8B9F16.tlog/link.read.1.tlog:
+    newFile: !uuid 'ad01f88f1bcfd92d32381e8842ed78dca3b5eb4f'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Release/Concurre.AF8B9F16.tlog/link.write.1.tlog:
+    newFile: !uuid '234d474df85f40092bc65a769c63623788e10426'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Release/ConcurrentMemoryPool.log:
+    newFile: !uuid 'f48e6d7cd5ef94736e73a2fb9ab4ea315fb211b7'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Release/PageCache.obj:
+    newFile: !uuid '59c4bf3a412062997df0b44661131ecf999481cd'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Release/ThreadCache.obj:
+    newFile: !uuid '1e33baf179573cefc74101537b614af87f8dd427'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Release/UnitTest.obj:
+    newFile: !uuid '4f225a0d6d6b9a9a3c5fae4322ca3b49fbd7ac09'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/Release/vc120.pdb:
+    newFile: !uuid '64ff318ca189a56c19119ee518c8652d89934740'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/ThreadCache.cpp:
+    newFile: !uuid 'a8547655242ef5be2f78c6b46ff7e4cb756ddb3c'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/ThreadCache.h:
+    newFile: !uuid '7f3424390337991b088ec07c891dd7f700498729'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool/UnitTest.cpp:
+    newFile: !uuid '9f6d52a8a1bad7b9f00080c922471c63dff06d85'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool1.psess:
+    newFile: !uuid 'ee18ad5fbfac51b2e3e7ff46eaee5f55b5510e13'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool2.psess:
+    newFile: !uuid '25c641dbd59efc3b47fe390c5c158b170c987aed'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool3.psess:
+    newFile: !uuid '810b7f5560cd589a740ad5d09b512d0ef5afa836'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool4.psess:
+    newFile: !uuid 'd68653d5ecd717e367002334e1e48726a0ac2cfc'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool5.psess:
+    newFile: !uuid '9bac9fbf6e12a598a03759c73f3ee4d64d263607'
+    oldFile: null
+  /高并发内存池/工程项目代码/ConcurrentMemoryPool/ConcurrentMemoryPool6.psess:
+    newFile: !uuid '6cbfe982b7bc8704ca61e2ea0be521499bea7580'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码:
+    newFile: !uuid 'a96492966a4407d4db4d38dc0a6306332287a8f4'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第1-3节项目介绍+定长内存池实现:
+    newFile: !uuid 'f5e79b9603ff171ae09768c636800362df551407'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第1-3节项目介绍+定长内存池实现/ObjectPool.h:
+    newFile: !uuid '2f9153c4cde4512da23dc4e21b89c91f0bc3491f'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第1-3节项目介绍+定长内存池实现/Test.cpp:
+    newFile: !uuid '8c5bb2209bec888e6b77338ccfec294cba9f9c95'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第1-3节项目介绍+定长内存池实现/项目介绍+定长内存池.png:
+    newFile: !uuid '8d1cfb0dc4f7cfd3d1a04535ff2702964b95a5ac'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第11-15节page cahe讲解及申请内存过程调通:
+    newFile: !uuid '63b5dd9d94158e4570b3782c925cfd3478d1ffdc'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第11-15节page cahe讲解及申请内存过程调通/CentralCache.cpp:
+    newFile: !uuid '3e992510a44c971fc8f115b2ed66b96f78856a09'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第11-15节page cahe讲解及申请内存过程调通/CentralCache.h:
+    newFile: !uuid '766fbf3f2b566a1e77aee72228580dfa8a090bca'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第11-15节page cahe讲解及申请内存过程调通/Common.h:
+    newFile: !uuid '523476c6fcd2db37362e0c94366855450af70493'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第11-15节page cahe讲解及申请内存过程调通/ConcurrentAlloc.h:
+    newFile: !uuid 'c082d781ec70b04a5756787a325579c1eb766e0c'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第11-15节page cahe讲解及申请内存过程调通/ObjectPool.h:
+    newFile: !uuid '1edcee9d6f2e62e041031a53fd2a31c36255c34b'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第11-15节page cahe讲解及申请内存过程调通/PageCache.cpp:
+    newFile: !uuid '57c5a03a0a6ebdd90ec20adcf8996adeb8dc8ca0'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第11-15节page cahe讲解及申请内存过程调通/PageCache.h:
+    newFile: !uuid 'c0c4134f66839f5943de6867692fb83f79cd7234'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第11-15节page cahe讲解及申请内存过程调通/ThreadCache.cpp:
+    newFile: !uuid '46d41739d8f180c1b0e38827fb99e7bace452e6b'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第11-15节page cahe讲解及申请内存过程调通/ThreadCache.h:
+    newFile: !uuid 'eac645388792c7cef13a56fd74ec33f882becae8'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第11-15节page cahe讲解及申请内存过程调通/UnitTest.cpp:
+    newFile: !uuid '90fb551db9f7b4afd4351f5a2b0f04b81918d7a8'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第11-15节page cahe讲解及申请内存过程调通/板书.png:
+    newFile: !uuid 'faa53686a30df920b6786169d7d69f6cbdc5305c'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第16节-19节释放内存流程及调通:
+    newFile: !uuid 'bd1bb21a19433454f43327e1ccfb277b28ba8feb'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第16节-19节释放内存流程及调通/CentralCache.cpp:
+    newFile: !uuid '7757c51d91c71e09e61c2d8d6405046c94decd2b'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第16节-19节释放内存流程及调通/CentralCache.h:
+    newFile: !uuid 'fa2c9bb1441e23546c2b9c7b3044ba0f5dc5e182'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第16节-19节释放内存流程及调通/Common.h:
+    newFile: !uuid 'fa6443a9ab4e4fb0b435f430ca0f5b8ad15a1ee0'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第16节-19节释放内存流程及调通/ConcurrentAlloc.h:
+    newFile: !uuid 'c082d781ec70b04a5756787a325579c1eb766e0c'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第16节-19节释放内存流程及调通/ObjectPool.h:
+    newFile: !uuid '1edcee9d6f2e62e041031a53fd2a31c36255c34b'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第16节-19节释放内存流程及调通/PageCache.cpp:
+    newFile: !uuid '5ded0c99ebc67f998bc3d8115d31de83f12f6f25'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第16节-19节释放内存流程及调通/PageCache.h:
+    newFile: !uuid '52829dc710934ca7377b94e0f8f43eecaf1b0b12'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第16节-19节释放内存流程及调通/ThreadCache.cpp:
+    newFile: !uuid 'a8547655242ef5be2f78c6b46ff7e4cb756ddb3c'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第16节-19节释放内存流程及调通/ThreadCache.h:
+    newFile: !uuid '7f3424390337991b088ec07c891dd7f700498729'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第16节-19节释放内存流程及调通/UnitTest.cpp:
+    newFile: !uuid 'b43b323f9a42497cb0d4590f96f624f306a09268'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第16节-19节释放内存流程及调通/板书.png:
+    newFile: !uuid '63c4353c1ca23569b3302d94b49f5268b0201960'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第20节-25节细节优化+测试:
+    newFile: !uuid '223aec10a5efee360e69c20554633d6f56ac9a01'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第20节-25节细节优化+测试/Benchmark.cpp:
+    newFile: !uuid '6ad8b80c1f656a92c748e04b4dfbde7c8914519b'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第20节-25节细节优化+测试/CentralCache.cpp:
+    newFile: !uuid '564c0d49818b7dd70d03d54fa148a52d3fcd90b6'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第20节-25节细节优化+测试/CentralCache.h:
+    newFile: !uuid 'fa2c9bb1441e23546c2b9c7b3044ba0f5dc5e182'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第20节-25节细节优化+测试/Common.h:
+    newFile: !uuid 'a8a814fc8e88b06fc6ad7245c031fb12b657e7b8'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第20节-25节细节优化+测试/ConcurrentAlloc.h:
+    newFile: !uuid '44a61f1e1a9b2dad2f83ebd6fba18a66ee2a3994'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第20节-25节细节优化+测试/ObjectPool.h:
+    newFile: !uuid '5596f793f83d1d19078e181e7d774048234f026c'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第20节-25节细节优化+测试/PageCache.cpp:
+    newFile: !uuid 'e176fe7511a0afc7cff1c035486b9bc6cb1cf22a'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第20节-25节细节优化+测试/PageCache.h:
+    newFile: !uuid '66c8609629f70825877a4384ecbc82cd90f39219'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第20节-25节细节优化+测试/ThreadCache.cpp:
+    newFile: !uuid 'a8547655242ef5be2f78c6b46ff7e4cb756ddb3c'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第20节-25节细节优化+测试/ThreadCache.h:
+    newFile: !uuid '7f3424390337991b088ec07c891dd7f700498729'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第20节-25节细节优化+测试/UnitTest.cpp:
+    newFile: !uuid '7c67095c027ca44490e690fcad114113cfc1d966'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第20节-25节细节优化+测试/板书.png:
+    newFile: !uuid 'e7131fbadaccfcbe3d8385d42cc91e8f4c5487cf'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第26-28节性能测试及其优化:
+    newFile: !uuid '09a9748aa0f43e8b4ab52374f96db3c730dd1bea'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第26-28节性能测试及其优化/Benchmark.cpp:
+    newFile: !uuid '50ccc50a19fbd344fe49e8b9f8c4f667d01c394f'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第26-28节性能测试及其优化/CentralCache.cpp:
+    newFile: !uuid '564c0d49818b7dd70d03d54fa148a52d3fcd90b6'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第26-28节性能测试及其优化/CentralCache.h:
+    newFile: !uuid 'fa2c9bb1441e23546c2b9c7b3044ba0f5dc5e182'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第26-28节性能测试及其优化/Common.h:
+    newFile: !uuid 'a8a814fc8e88b06fc6ad7245c031fb12b657e7b8'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第26-28节性能测试及其优化/ConcurrentAlloc.h:
+    newFile: !uuid '44a61f1e1a9b2dad2f83ebd6fba18a66ee2a3994'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第26-28节性能测试及其优化/ObjectPool.h:
+    newFile: !uuid '5596f793f83d1d19078e181e7d774048234f026c'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第26-28节性能测试及其优化/PageCache.cpp:
+    newFile: !uuid '64741a67cccbe755e5192637ee8ad8aa4d2b4869'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第26-28节性能测试及其优化/PageCache.h:
+    newFile: !uuid 'ff967d4172f64608b998e262b25cae80ad6fa2a8'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第26-28节性能测试及其优化/PageMap.h:
+    newFile: !uuid 'f72c6fb7515b829d21f09e9a560b6a8a74572a39'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第26-28节性能测试及其优化/ThreadCache.cpp:
+    newFile: !uuid 'a8547655242ef5be2f78c6b46ff7e4cb756ddb3c'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第26-28节性能测试及其优化/ThreadCache.h:
+    newFile: !uuid '7f3424390337991b088ec07c891dd7f700498729'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第26-28节性能测试及其优化/UnitTest.cpp:
+    newFile: !uuid '7c67095c027ca44490e690fcad114113cfc1d966'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第26-28节性能测试及其优化/板书.png:
+    newFile: !uuid '03b7993bc652b79ec698e9daf3719d89fdd7275f'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第4-7节thread cache讲解:
+    newFile: !uuid 'ae4442b59da149a793f31ce220c025310a07aec9'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第4-7节thread cache讲解/Common.h:
+    newFile: !uuid '2f111da73090a0664b88c27004d5b206a7fcd876'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第4-7节thread cache讲解/ConcurrentAlloc.h:
+    newFile: !uuid 'c082d781ec70b04a5756787a325579c1eb766e0c'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第4-7节thread cache讲解/ObjectPool.h:
+    newFile: !uuid '37c438e242912cd2858e0c3fd6eb64e424b696d7'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第4-7节thread cache讲解/ThreadCache.cpp:
+    newFile: !uuid '8a34ae183d1e287ca835c38408d7425a8f52aee6'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第4-7节thread cache讲解/ThreadCache.h:
+    newFile: !uuid 'eac645388792c7cef13a56fd74ec33f882becae8'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第4-7节thread cache讲解/UnitTest.cpp:
+    newFile: !uuid 'f87898733cf369c83533060d4c674bf8c42b47ab'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第4-7节thread cache讲解/thread cache--板书.png:
+    newFile: !uuid 'a481a98adfd19ad13979dae0f62e0bdc5ee6c019'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第8-10节central cache讲解:
+    newFile: !uuid 'beb1c005eaa1496d25297c114b1b8fa72b05ef3e'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第8-10节central cache讲解/CentralCache.cpp:
+    newFile: !uuid 'fe5b436eaf5bae22ac1babf73a0615a78d6e9b66'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第8-10节central cache讲解/CentralCache.h:
+    newFile: !uuid '766fbf3f2b566a1e77aee72228580dfa8a090bca'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第8-10节central cache讲解/Common.h:
+    newFile: !uuid '21a15e754f2c8db104b9ceaae9b6455c230f893e'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第8-10节central cache讲解/ConcurrentAlloc.h:
+    newFile: !uuid 'c082d781ec70b04a5756787a325579c1eb766e0c'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第8-10节central cache讲解/ObjectPool.h:
+    newFile: !uuid '37c438e242912cd2858e0c3fd6eb64e424b696d7'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第8-10节central cache讲解/ThreadCache.cpp:
+    newFile: !uuid 'fda4a2039e8a055e9ffb7d3c1586d3243fa55c7c'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第8-10节central cache讲解/ThreadCache.h:
+    newFile: !uuid 'eac645388792c7cef13a56fd74ec33f882becae8'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第8-10节central cache讲解/UnitTest.cpp:
+    newFile: !uuid '7932ceeafea1d48ee0667e648716490b43faa3cf'
+    oldFile: null
+  /高并发内存池/高并发内存池项目板书及代码/第8-10节central cache讲解/板书.png:
+    newFile: !uuid 'f72d7d17364fffd8ff80f71f20f9e2774f5fc7b5'
+    oldFile: null
+gitCommitId: !uuid 'c7d492c0139e7c1fbbe195ea6100141184b1c6de'
 renames: {
   }
-revisionId: 14
+revisionId: 15
