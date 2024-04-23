@@ -2,58 +2,568 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid '6d17402792c44471e26c7a9e5d70d3b01ce84d2e'
-    oldFile: !uuid '993fa4e986c9f0e326a211a2fa003f2c85ff1a63'
-  /redis:
-    newFile: !uuid '52afd772bda887e69226872b667d208334eedcc3'
-    oldFile: !uuid 'bd2b85b53db3db36a2e89c5eb76e43b5896d9af3'
-  /redis/README.md:
-    newFile: !uuid '6d17402792c44471e26c7a9e5d70d3b01ce84d2e'
-    oldFile: !uuid 'a46e585eaa178a570d09128014d1e624543d3e96'
-  /在线OJ(servlet):
-    newFile: !uuid '1db18da37925e8384baafce0f20b5d213fbc959f'
-    oldFile: !uuid '18f1f35ed1aaa6c3c5bc372ab56fecfcdae8716c'
-  /在线OJ(servlet)/README.md:
-    newFile: !uuid '6d17402792c44471e26c7a9e5d70d3b01ce84d2e'
-    oldFile: !uuid '993fa4e986c9f0e326a211a2fa003f2c85ff1a63'
-  /搜索引擎(servlet):
-    newFile: !uuid 'fbc76855bb68e59b64a88a32c7653776fbd8f995'
-    oldFile: !uuid '32fae5d333709a3ecbb65fc194f46741d72a6a0e'
-  /搜索引擎(servlet)/README.md:
-    newFile: !uuid '6d17402792c44471e26c7a9e5d70d3b01ce84d2e'
-    oldFile: !uuid '993fa4e986c9f0e326a211a2fa003f2c85ff1a63'
-  /搜索引擎(spring):
-    newFile: !uuid '81b49a18123f2f9beece73b236d51bac013eeb59'
-    oldFile: !uuid '7db1c1df12fcdc6bcb731416a79af90ddb66fb07'
-  /搜索引擎(spring)/README.md:
-    newFile: !uuid '6d17402792c44471e26c7a9e5d70d3b01ce84d2e'
-    oldFile: !uuid '993fa4e986c9f0e326a211a2fa003f2c85ff1a63'
-  /文件搜索工具:
-    newFile: !uuid '96c165caeb9b4dadbf2818235ed9910588518b4b'
-    oldFile: !uuid '4dbd17b20fed8b10a4191c2198c066f79a50f723'
-  /文件搜索工具/README.md:
-    newFile: !uuid '6d17402792c44471e26c7a9e5d70d3b01ce84d2e'
-    oldFile: !uuid '993fa4e986c9f0e326a211a2fa003f2c85ff1a63'
-  /模拟实现消息队列:
-    newFile: !uuid '66c02fbf0bdd8b060cd14b7a506e2e0c06992fe6'
-    oldFile: !uuid '965c5756994f9e64b30c966f4f55310587b64959'
-  /模拟实现消息队列/README.md:
-    newFile: !uuid '6d17402792c44471e26c7a9e5d70d3b01ce84d2e'
-    oldFile: !uuid '993fa4e986c9f0e326a211a2fa003f2c85ff1a63'
-  /网页五子棋对战:
-    newFile: !uuid '3779c38bebe79469f0fb5266ebd6e1a92ec84b2c'
-    oldFile: !uuid '69816402296bcd565fc5ba374fa08f9c2642bcff'
-  /网页五子棋对战/README.md:
-    newFile: !uuid '6d17402792c44471e26c7a9e5d70d3b01ce84d2e'
-    oldFile: !uuid '993fa4e986c9f0e326a211a2fa003f2c85ff1a63'
-  /网页聊天室:
-    newFile: !uuid 'e0b842b689a8487541f107ed79d8c798ec1d9ec8'
-    oldFile: !uuid '91a73b81604505dc8ababfa30aca1d68b4c85dad'
-  /网页聊天室/README.md:
-    newFile: !uuid '6d17402792c44471e26c7a9e5d70d3b01ce84d2e'
-    oldFile: !uuid '993fa4e986c9f0e326a211a2fa003f2c85ff1a63'
-gitCommitId: !uuid '7bcaf06b9cff9731ae1a9c57cf3d898aac498a92'
+  /音乐播放器:
+    newFile: !uuid '86d4b86c26566cdee5bffe71a3a74c3016385ea8'
+    oldFile: null
+  /音乐播放器/.gitignore:
+    newFile: !uuid '549e00a2a96fa9d7c5dbc9859664a78d980158c2'
+    oldFile: null
+  /音乐播放器/mvnw:
+    newFile: !uuid '8a8fb2282df5b8f7263470a5a2dc0e196f35f35f'
+    oldFile: null
+  /音乐播放器/mvnw.cmd:
+    newFile: !uuid '1d8ab018eaf11d9b3a4a90e7818ace373dfbb380'
+    oldFile: null
+  /音乐播放器/pom.xml:
+    newFile: !uuid '8411639bcc3c73be544d581bfe102900f545028d'
+    oldFile: null
+  /音乐播放器/src:
+    newFile: !uuid 'bf7dbb41cc9f9f943b3fd2e6149123b908d2bfc2'
+    oldFile: null
+  /音乐播放器/src/main:
+    newFile: !uuid '14a29902792428a81d7006a76b92cc5f58e686a5'
+    oldFile: null
+  /音乐播放器/src/main/java:
+    newFile: !uuid 'f52c36df8cba894645f5c9814755b10f0f799ca6'
+    oldFile: null
+  /音乐播放器/src/main/java/com:
+    newFile: !uuid '598167c94e53a205d4f6b2a7a349c400a2709998'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example:
+    newFile: !uuid '3f050676e131eb15348a9d55e102317e26a6d3bf'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic:
+    newFile: !uuid 'f0fc7a42dd10f7c42f57f008d618a15c3f3fe795'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/OnlinemusicApplication.java:
+    newFile: !uuid '2c77f687c4522c4d6da285eab1b6c721c44da430'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/config:
+    newFile: !uuid '5f236cfb306b6bd36a795c115f8d735390cda922'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/config/AppConfig.java:
+    newFile: !uuid 'e243e2811dca7023a4853dcdd2741a1cc0d16ce8'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/config/LoginInterceptor.java:
+    newFile: !uuid '2d3e5c89bdb4305953a84a83851916e3e8b4110a'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/controller:
+    newFile: !uuid 'be544c467c4d612cad990071e080cf9ecc093a3e'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/controller/LoveMusicController.java:
+    newFile: !uuid '683456f5f9ad82a950910a4c02eaa77c494a36df'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/controller/MusicController.java:
+    newFile: !uuid 'e683d5dd6e7c02b195b51e72cc100a55301be043'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/controller/TestController.java:
+    newFile: !uuid 'c4c2a109ee01883d6259d153c0ff0d389c416932'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/controller/UserController.java:
+    newFile: !uuid '775f071db137402aa778a4a9daf3008beac48f37'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/mapper:
+    newFile: !uuid 'abd8f3eef5ba68318d03a1cfebe2dd436f851816'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/mapper/LoveMusicMapper.java:
+    newFile: !uuid '877a1364c64c860127b590293fc47e4831b12b78'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/mapper/MusicMapper.java:
+    newFile: !uuid '2cca848bb496d65b9dfe87767b5a1b80d93165a8'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/mapper/UserMapper.java:
+    newFile: !uuid 'ab53e27abf10ecc671d1d0c65d1ed6f33b3e6157'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/model:
+    newFile: !uuid '39a1b29fca3638bcb1a40b2e50e69f11992698e3'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/model/Music.java:
+    newFile: !uuid 'c7f643c7ff0f6f81389e006d41d5b9e136847f78'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/model/User.java:
+    newFile: !uuid 'a739323283d380654cde9b94cce0339bd555ee8a'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/tools:
+    newFile: !uuid '9db21f325a4b286d2acad8f18bccd3cc62829d7e'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/tools/BCryptTest.java:
+    newFile: !uuid '12dffb97b039bafea384580fd685c7a99fbe9898'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/tools/Constant.java:
+    newFile: !uuid '7c1946fa351f51f8a07da0d282b7335dd6cf35d8'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/tools/MD5Util.java:
+    newFile: !uuid '40437824bd605312385919165f50eacfed02131c'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/tools/ResponseBodyMessage.java:
+    newFile: !uuid 'bf04b246b3c9f5f02640dbf6585e32058fbf55c0'
+    oldFile: null
+  /音乐播放器/src/main/java/com/example/onlinemusic/tools/TestTime.java:
+    newFile: !uuid '4c21e188548589b2a10e7fc088342f02decd10d7'
+    oldFile: null
+  /音乐播放器/src/main/resources:
+    newFile: !uuid 'a0678e57364be89324fd90512c3e34444cb7a7ba'
+    oldFile: null
+  /音乐播放器/src/main/resources/application.properties:
+    newFile: !uuid '45836de75e008ff394fe7da258731d063d17b8ff'
+    oldFile: null
+  /音乐播放器/src/main/resources/mybatis:
+    newFile: !uuid '0c51b3d807331ae141454fa02364cd01d61a5eff'
+    oldFile: null
+  /音乐播放器/src/main/resources/mybatis/LoveMusicMapper.xml:
+    newFile: !uuid '3463b8d4cd60f5ffa4889d460e429494dcd41a58'
+    oldFile: null
+  /音乐播放器/src/main/resources/mybatis/MusicMapper.xml:
+    newFile: !uuid '7933954a123623c016a3a01fe972f39c9cbb700b'
+    oldFile: null
+  /音乐播放器/src/main/resources/mybatis/UserMapper.xml:
+    newFile: !uuid 'e6f934e6bac948c13c516dabcfe30050dc0b28f4'
+    oldFile: null
+  /音乐播放器/src/main/resources/static:
+    newFile: !uuid 'dbd6c59ebae96f309de42185bfbff98b1c4cf7d8'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/css:
+    newFile: !uuid 'c7886f97821b021f6dd1b92d09cd60a7922ace51'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/css/bootstrap-theme.css:
+    newFile: !uuid '31d8882661324aedb8693f8bb7322c4af8374ae0'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/css/bootstrap-theme.min.css:
+    newFile: !uuid '5e39401957d87d5d810f3d05ab05aca5febd7b5d'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/css/bootstrap.css:
+    newFile: !uuid '6167622cecfb5c0f04156363565e3d4109fc55c5'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/css/bootstrap.min.css:
+    newFile: !uuid 'ed3905e0e0c91d4ed7d8aa14412dffeb038745ff'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/fonts:
+    newFile: !uuid '14032aabd85b43a058cfc7025dd4fa9dd325ea97'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/fonts/glyphicons-halflings-regular.eot:
+    newFile: !uuid 'b93a4953fff68df523aa7656497ee339d6026d64'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/fonts/glyphicons-halflings-regular.svg:
+    newFile: !uuid '94fb5490a2ed10b2c69a4a567a4fd2e4f706d841'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf:
+    newFile: !uuid '1413fc609ab6f21774de0cb7e01360095584f65b'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/fonts/glyphicons-halflings-regular.woff:
+    newFile: !uuid '9e612858f802245ddcbf59788a0db942224bab35'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2:
+    newFile: !uuid '64539b54c3751a6d9adb44c8e3a45ba5a73b77f0'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/images:
+    newFile: !uuid 'ed79fa7902e3c65ce5ceb0f402bba8951d4def78'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/images/3.png:
+    newFile: !uuid 'ca8041e07d06e24f394d44cec97557488188070c'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/js:
+    newFile: !uuid 'ddec988dd2820f0fb506edf2373801f1cadc53cc'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/js/jquery-3.1.1.min.js:
+    newFile: !uuid '4c5be4c0fbe230e81d95718a18829e965a2d14b2'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/js/jquery.params.js:
+    newFile: !uuid '0aee22f0bbccb307c786010500ada59fdafb8b05'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/js/md5.min.js:
+    newFile: !uuid '46188bab7e917f74e15f6816d963231df8f38701'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/list.html:
+    newFile: !uuid 'bd9b7f6fc677759b4c8e21e6e7b6be8f0f69d3db'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/login.html:
+    newFile: !uuid '9322d80c5eefdb5b5ab897189925c899a7932e82'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/loveMusic.html:
+    newFile: !uuid '099757abd115bb41cc0208ea9b3742d439d455f2'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player:
+    newFile: !uuid '9555a35a059c200d0eb84767beea281c307f9b9e'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/flash:
+    newFile: !uuid '4642a77a1203e904d6525f33ffaf0bf122de269a'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/flash/SewisePlayer.swf:
+    newFile: !uuid 'cd4edd4911043965b7713e5408123e6b26afc63e'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/flash/plugins:
+    newFile: !uuid '05bb9b605b7c6b7ef38a2029d0aff64a7f508089'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/flash/plugins/AudioPlayer.swf:
+    newFile: !uuid '3f0689b96cc591388b4094d77a4fcc6737c2e2bd'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/flash/plugins/SubtitlesPlayer.swf:
+    newFile: !uuid 'e1f967f8fd1592ba61d601ac64a0b23cface5c67'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/flash/skins:
+    newFile: !uuid 'e120ce55cc141795cf80787160ff9a1f92eca169'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/flash/skins/liveOrange.swf:
+    newFile: !uuid 'aacba127ffd2883454a9555d7ac7c0aa4652bb5b'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/flash/skins/liveRadio.swf:
+    newFile: !uuid '7d9662438f57e973f1da733a8ad6de88ff8b7f2c'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/flash/skins/liveWhite.swf:
+    newFile: !uuid '9971462943c6274e1c90340711b4e930a3dba9f0'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/flash/skins/vodFlowPlayer.swf:
+    newFile: !uuid '29256ac5a8a2f9e14c6b84e64ca9f955a41074f1'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/flash/skins/vodFoream.swf:
+    newFile: !uuid '417fd455d9912f7c7e40a24c3dbbed87112a8af7'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/flash/skins/vodMobileTransparent.swf:
+    newFile: !uuid 'b8ee5b756d4fb0941ad68f23b635c57676cb6660'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/flash/skins/vodMobileWhite.swf:
+    newFile: !uuid 'd33075d3746b1fa8a5e6295a833b473d9e753851'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/flash/skins/vodOrange.swf:
+    newFile: !uuid 'b8ee5b756d4fb0941ad68f23b635c57676cb6660'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/flash/skins/vodTransparent.swf:
+    newFile: !uuid 'b8ee5b756d4fb0941ad68f23b635c57676cb6660'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/flash/skins/vodVspaas.swf:
+    newFile: !uuid '38975dc53fa739afedf56ed62c390099ef74cc0b'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/flash/skins/vodWhite.swf:
+    newFile: !uuid 'd33075d3746b1fa8a5e6295a833b473d9e753851'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html:
+    newFile: !uuid '30eba660ace71cddde5e9f1b1bd1fbc54ab12bfc'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins:
+    newFile: !uuid '82b813a6c9cd67124b68fe2f12112f34f06e0e21'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveOrange:
+    newFile: !uuid '520c1c2722359626ca30054dc7abfe5a12f66e9c'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveOrange/big_play_btn.png:
+    newFile: !uuid '87b0b177d9ef32bd6b9ac7e388f7b7d8da7a7061'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveOrange/buffer.gif:
+    newFile: !uuid '2e8b06a504150bfe896f4b84b5e9c449cb6f4e15'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveOrange/controlbar.png:
+    newFile: !uuid 'a91f050edbaeee51cf7f79ea666ee5bacf122d30'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveOrange/logo.png:
+    newFile: !uuid '5ec28628566a86a17b61015535154c0787a0019d'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveOrange/skin.css:
+    newFile: !uuid '847c36de7fe531b2f91963b49ddba3822ed6e765'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveOrange/skin.html:
+    newFile: !uuid '5d5726e172da62f38ce35360a55682057d8686d8'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveOrange/skin.html.js:
+    newFile: !uuid 'c3f87c5a50b428da19e581c06ce4b2bffb8944ec'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveOrange/skin.js:
+    newFile: !uuid 'cb28a7a2757f53e1517cc2ee8c25b5c3d7646aa1'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveRadio:
+    newFile: !uuid '1290305716d55a190290457c5b853f115c30b4cc'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveRadio/bg.jpg:
+    newFile: !uuid '8100f5574b05d06ab68df0e929eb04fdf52a76d2'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveRadio/buffer.png:
+    newFile: !uuid '416f1abbfa0f317188a52e4157fd50b1d59e1b19'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveRadio/controlbar.png:
+    newFile: !uuid '2859ac5a1591ca79effa146c8a5aee1ab1986399'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveRadio/controlbarbg.jpg:
+    newFile: !uuid 'a899c74925949d21988b67d0e4f752ccb0e97fe1'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveRadio/skin.css:
+    newFile: !uuid '4cc05c9412b88b8eed9e2415581f26e38b046998'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveRadio/skin.html:
+    newFile: !uuid '63568134f6f4d5713afe93d43c1b9775ef980a4f'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveRadio/skin.html.js:
+    newFile: !uuid '09b50df4a11a42a57873af95fbb46f8fcd9ca7c7'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveRadio/skin.js:
+    newFile: !uuid 'b09fc37c40a60d53890800efc357a1bc69d17178'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveWhite:
+    newFile: !uuid '520c1c2722359626ca30054dc7abfe5a12f66e9c'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveWhite/big_play_btn.png:
+    newFile: !uuid '87b0b177d9ef32bd6b9ac7e388f7b7d8da7a7061'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveWhite/buffer.gif:
+    newFile: !uuid '2e8b06a504150bfe896f4b84b5e9c449cb6f4e15'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveWhite/controlbar.png:
+    newFile: !uuid 'a91f050edbaeee51cf7f79ea666ee5bacf122d30'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveWhite/logo.png:
+    newFile: !uuid '5ec28628566a86a17b61015535154c0787a0019d'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveWhite/skin.css:
+    newFile: !uuid '847c36de7fe531b2f91963b49ddba3822ed6e765'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveWhite/skin.html:
+    newFile: !uuid '5d5726e172da62f38ce35360a55682057d8686d8'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveWhite/skin.html.js:
+    newFile: !uuid 'c3f87c5a50b428da19e581c06ce4b2bffb8944ec'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/liveWhite/skin.js:
+    newFile: !uuid 'cb28a7a2757f53e1517cc2ee8c25b5c3d7646aa1'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodFlowPlayer:
+    newFile: !uuid '189ec88ac589e33342e96aae528669e68978b6a1'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodFlowPlayer/big_play_btn.png:
+    newFile: !uuid '4a87952fec4f64aaf2108470b2a52f36cd2df21f'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodFlowPlayer/buffer.gif:
+    newFile: !uuid '014466a338afa1b39b210aa280f7cbd6bc3cf2f2'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodFlowPlayer/clarity_btn_bg.png:
+    newFile: !uuid '9f8970a6810de99f94a2c697d043aa64e6eda255'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodFlowPlayer/controlbar.png:
+    newFile: !uuid '40fef54f3ec68baedcd0403c758801ca14714e97'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodFlowPlayer/logo.png:
+    newFile: !uuid '5ec28628566a86a17b61015535154c0787a0019d'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodFlowPlayer/skin.css:
+    newFile: !uuid '1300ea5942b90af8d5311e62bc789079fb282fbc'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodFlowPlayer/skin.html:
+    newFile: !uuid 'f6c78de88189b1db5bef8e17104ae424ab2ce71b'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodFlowPlayer/skin.html.js:
+    newFile: !uuid '42150223c5262368d4755e5a67a5b45c0e3becee'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodFlowPlayer/skin.js:
+    newFile: !uuid '4c8df58439da2f8c45569caab762e70b05f491c9'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodFoream:
+    newFile: !uuid '4af397be650b715bd2278893ec91bf37d28262a3'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodFoream/big_play_btn.png:
+    newFile: !uuid '4a87952fec4f64aaf2108470b2a52f36cd2df21f'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodFoream/buffer.gif:
+    newFile: !uuid '014466a338afa1b39b210aa280f7cbd6bc3cf2f2'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodFoream/clarity_btn_bg.png:
+    newFile: !uuid '9f8970a6810de99f94a2c697d043aa64e6eda255'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodFoream/controlbar.png:
+    newFile: !uuid '40fef54f3ec68baedcd0403c758801ca14714e97'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodFoream/logo.png:
+    newFile: !uuid '262ca18307c7dcf68cf0a5032585009c264284ce'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodFoream/skin.css:
+    newFile: !uuid 'ab827e2d1773279ba550c6a4b36adcce79c3ca86'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodFoream/skin.html:
+    newFile: !uuid 'ac32fc20b24bfe490d3ff9e84263c9a3bdd7a533'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodFoream/skin.html.js:
+    newFile: !uuid '4fbe1bc827aa38f38e900bcb042bb475eb25ce37'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodFoream/skin.js:
+    newFile: !uuid 'bd5e17956ec6811ed5991f15813eab707372e17d'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodMobileTransparent:
+    newFile: !uuid 'a1d7f076740411121bac424701e7bad6fa282673'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodMobileTransparent/big_play_btn.png:
+    newFile: !uuid 'f38dfc4e222688ac32b9daa751840e4486859927'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodMobileTransparent/buffer.png:
+    newFile: !uuid '92aed0d82335f1fe5b7345f4f8378cb8b18c65dc'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodMobileTransparent/controlbar.png:
+    newFile: !uuid '8f0d254c62c4d30127b4d4bd3eed8f4a629d9dc3'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodMobileTransparent/logo.png:
+    newFile: !uuid '5ec28628566a86a17b61015535154c0787a0019d'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodMobileTransparent/skin.css:
+    newFile: !uuid '1fc249b2f895c66c35caa16ff836b28b17dfa31b'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodMobileTransparent/skin.html:
+    newFile: !uuid 'c850983889c45ad27a2b6b15804f119452ff98f4'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodMobileTransparent/skin.html.js:
+    newFile: !uuid '3805327787a40f4557a19334daf7136232007a1c'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodMobileTransparent/skin.js:
+    newFile: !uuid 'cca656119c2644c4d4e5e893949ae41f36e0b829'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodMobileWhite:
+    newFile: !uuid 'cc3e49090c28ed2c066d91088af96be43ccd1c32'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodMobileWhite/big_play_btn.png:
+    newFile: !uuid '87b0b177d9ef32bd6b9ac7e388f7b7d8da7a7061'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodMobileWhite/buffer.gif:
+    newFile: !uuid '2e8b06a504150bfe896f4b84b5e9c449cb6f4e15'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodMobileWhite/controlbar.png:
+    newFile: !uuid '4ca3629d097244f81175207ef131235847262077'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodMobileWhite/logo.png:
+    newFile: !uuid '5ec28628566a86a17b61015535154c0787a0019d'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodMobileWhite/skin.css:
+    newFile: !uuid '42b1f9e39043929bb596876a212787685e86c692'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodMobileWhite/skin.html:
+    newFile: !uuid '33e2d2a12dc1d13f7ee775462fb71d898262144a'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodMobileWhite/skin.html.js:
+    newFile: !uuid '934b300eaa0520938396b068b64aabdcceb1781d'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodMobileWhite/skin.js:
+    newFile: !uuid '1176bad8b6770cd27e01c06dc51fec4f7960e143'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodOrange:
+    newFile: !uuid '111fef1125ca818b201aceefd911b9ff8a4b6156'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodOrange/big_play_btn.png:
+    newFile: !uuid 'f38dfc4e222688ac32b9daa751840e4486859927'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodOrange/buffer.png:
+    newFile: !uuid '92aed0d82335f1fe5b7345f4f8378cb8b18c65dc'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodOrange/controlbar.png:
+    newFile: !uuid '8f0d254c62c4d30127b4d4bd3eed8f4a629d9dc3'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodOrange/logo.png:
+    newFile: !uuid '5ec28628566a86a17b61015535154c0787a0019d'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodOrange/skin.css:
+    newFile: !uuid '4ecbe5946991a4801c669dfd4514532d2359ea37'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodOrange/skin.html:
+    newFile: !uuid '13ad599a3814f3f2e006d96f61b337cbe03a7f4a'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodOrange/skin.html.js:
+    newFile: !uuid '482c67988c7a9cac9574da0a45d618e2bbdea7ab'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodOrange/skin.js:
+    newFile: !uuid '72cf529fd73eab9c3aae5c794234c53bf0b71089'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodTransparent:
+    newFile: !uuid '111fef1125ca818b201aceefd911b9ff8a4b6156'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodTransparent/big_play_btn.png:
+    newFile: !uuid 'f38dfc4e222688ac32b9daa751840e4486859927'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodTransparent/buffer.png:
+    newFile: !uuid '92aed0d82335f1fe5b7345f4f8378cb8b18c65dc'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodTransparent/controlbar.png:
+    newFile: !uuid '8f0d254c62c4d30127b4d4bd3eed8f4a629d9dc3'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodTransparent/logo.png:
+    newFile: !uuid '5ec28628566a86a17b61015535154c0787a0019d'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodTransparent/skin.css:
+    newFile: !uuid '4ecbe5946991a4801c669dfd4514532d2359ea37'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodTransparent/skin.html:
+    newFile: !uuid '13ad599a3814f3f2e006d96f61b337cbe03a7f4a'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodTransparent/skin.html.js:
+    newFile: !uuid '482c67988c7a9cac9574da0a45d618e2bbdea7ab'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodTransparent/skin.js:
+    newFile: !uuid '72cf529fd73eab9c3aae5c794234c53bf0b71089'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodWhite:
+    newFile: !uuid 'd47368b9e89c37154f834907a1cb29ff7b12fab0'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodWhite/big_play_btn.png:
+    newFile: !uuid '87b0b177d9ef32bd6b9ac7e388f7b7d8da7a7061'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodWhite/buffer.gif:
+    newFile: !uuid '2e8b06a504150bfe896f4b84b5e9c449cb6f4e15'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodWhite/controlbar.png:
+    newFile: !uuid '4ca3629d097244f81175207ef131235847262077'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodWhite/logo.png:
+    newFile: !uuid '5ec28628566a86a17b61015535154c0787a0019d'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodWhite/skin.css:
+    newFile: !uuid 'b5b4be144a4da5021d77d3a9e495b2d54d00b421'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodWhite/skin.html:
+    newFile: !uuid 'ba85cd40af0db9d502918ff9f98204a00a375790'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodWhite/skin.html.js:
+    newFile: !uuid 'a51f5d48ec8cb4a64cea2ce35dd9eef0f891db48'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/html/skins/vodWhite/skin.js:
+    newFile: !uuid 'd12c2b116755199285d9d87bb1d8ee3edb3d251f'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/index.html:
+    newFile: !uuid 'e3339e2367b30cb18310a56a7a9f9639b0e73176'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/js:
+    newFile: !uuid '1847601e40a8d0c92db405da2fa505ed9149052a'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/js/jquery.min.js:
+    newFile: !uuid '73f33fb3aa529308d1f3f2f4fc253c4abed95374'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/js/swfobject.js:
+    newFile: !uuid 'bf35c07c8f4e0bde7b0bfab54712c1abfb30dcaa'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/live.html:
+    newFile: !uuid '684ff29ae46c41975e5326053918ee96fd1d8e60'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/sewise.player.min.js:
+    newFile: !uuid '0dc9ef7f5ec2c2280f52eabc6d71b1d617245a8b'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/player/vod.html:
+    newFile: !uuid 'ef01b65c5eeec5b5fc563a23af4e8e844b5120ed'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/test.html:
+    newFile: !uuid 'fdd023f0d2c5888448056e0a90b5b1101d65c496'
+    oldFile: null
+  /音乐播放器/src/main/resources/static/upload.html:
+    newFile: !uuid '17c364c3e258aaa81b0fc1719a72a8436c82acc1'
+    oldFile: null
+  /音乐播放器/src/test:
+    newFile: !uuid '2a41e90d9c66706c99d332dc535d515c5c58e6a4'
+    oldFile: null
+  /音乐播放器/src/test/java:
+    newFile: !uuid 'b35ff88dbc91dc3d994982697e1c7378ddb8203d'
+    oldFile: null
+  /音乐播放器/src/test/java/com:
+    newFile: !uuid 'beebb36c5a7e7f14bf2fce5826b73d1fe23caaf2'
+    oldFile: null
+  /音乐播放器/src/test/java/com/example:
+    newFile: !uuid 'b28098dfe65d111b42f9c6763fa54251fabc09ef'
+    oldFile: null
+  /音乐播放器/src/test/java/com/example/onlinemusic:
+    newFile: !uuid '093718d44c3c40ae39bffd62eccc973d11384e5b'
+    oldFile: null
+  /音乐播放器/src/test/java/com/example/onlinemusic/OnlinemusicApplicationTests.java:
+    newFile: !uuid '122245b356a7ca87ead348cf27591b90d1942a04'
+    oldFile: null
+gitCommitId: !uuid 'ce3cccd3a3a382b4760e9182ea9f055ae76493e5'
 renames: {
   }
-revisionId: 12
+revisionId: 13
