@@ -2,226 +2,298 @@
 branches: {
   }
 fileChange:
-  /网页五子棋对战:
-    newFile: !uuid '3eb9ba0dceb5f7c19ef2dee894e92328c67d8876'
+  /网页聊天室:
+    newFile: !uuid 'ee3b5132a215bb2bf37fa0f60c9dc3457a616be0'
     oldFile: null
-  /网页五子棋对战/.gitignore:
-    newFile: !uuid 'a2a3040aa86debfd8826d9c2b5c816314c17d9fe'
+  /网页聊天室/.gitignore:
+    newFile: !uuid '549e00a2a96fa9d7c5dbc9859664a78d980158c2'
     oldFile: null
-  /网页五子棋对战/HELP.md:
-    newFile: !uuid 'cebfe5b0c552a2701f144a5d8587bb0f00338a77'
+  /网页聊天室/HELP.md:
+    newFile: !uuid '6402686d5ed0b1b135ef1807c11ee576c5547e90'
     oldFile: null
-  /网页五子棋对战/java_gobang.iml:
-    newFile: !uuid 'c9991c04805fc07691a2e8701650e8e66a53f1e0'
+  /网页聊天室/java_chatroom.iml:
+    newFile: !uuid '10f787e3ab1f5e08278ef0d0ea61e307d37a5b43'
     oldFile: null
-  /网页五子棋对战/mvnw:
-    newFile: !uuid 'a16b5431b4c3cab50323a3f558003fd0abd87dad'
+  /网页聊天室/mvnw:
+    newFile: !uuid '8a8fb2282df5b8f7263470a5a2dc0e196f35f35f'
     oldFile: null
-  /网页五子棋对战/mvnw.cmd:
-    newFile: !uuid 'c8d43372c986d97911cdc21bd87e0cbe3d83bdda'
+  /网页聊天室/mvnw.cmd:
+    newFile: !uuid '1d8ab018eaf11d9b3a4a90e7818ace373dfbb380'
     oldFile: null
-  /网页五子棋对战/pom.xml:
-    newFile: !uuid '141d8649e80f664583ec5b378a3d2f68563acb79'
+  /网页聊天室/pom.xml:
+    newFile: !uuid '15cc131732a84c5e082b510d522fc096716f0ae0'
     oldFile: null
-  /网页五子棋对战/script初始内容.js:
-    newFile: !uuid '4aa7e87a016dfcac18e66e5e5b2d94f379148c2c'
+  /网页聊天室/src:
+    newFile: !uuid '07fca59f8dea9eaf52b16e59de4cf34abaf6977d'
     oldFile: null
-  /网页五子棋对战/src:
-    newFile: !uuid '6ebca70b3a07fa9fadb47ab23e73c0bb8d3b464a'
+  /网页聊天室/src/main:
+    newFile: !uuid '6f2e5bf8279964c27e44e2ee6106ef7ed6e19a09'
     oldFile: null
-  /网页五子棋对战/src/main:
-    newFile: !uuid 'cdd569ca99893065d2706998b0f61a411a4f1b19'
+  /网页聊天室/src/main/java:
+    newFile: !uuid 'a8ea5b66e17c2af1043c3fc46a299f5f5a476ed2'
     oldFile: null
-  /网页五子棋对战/src/main/db.sql:
-    newFile: !uuid '39ea291741b7915cd654536dcb9cbc4c3f67fa32'
+  /网页聊天室/src/main/java/com:
+    newFile: !uuid '8c552a07de9ecfb28bfc1d6ed51034167215fc66'
     oldFile: null
-  /网页五子棋对战/src/main/java:
-    newFile: !uuid '4e89deff6a143605dd3287988daa5ea09fb97c17'
+  /网页聊天室/src/main/java/com/example:
+    newFile: !uuid '71b93547f12bc14b9d8047280f87a7ac348524db'
     oldFile: null
-  /网页五子棋对战/src/main/java/com:
-    newFile: !uuid '5e3819d94be3459f5edf9456fb507d0981aef5f8'
+  /网页聊天室/src/main/java/com/example/java_chatroom:
+    newFile: !uuid '65e34b9fac810f78b110bda40ec29541805c36ff'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example:
-    newFile: !uuid '5df42a30d9fbabebffc9b84f90ad005045742f03'
+  /网页聊天室/src/main/java/com/example/java_chatroom/JavaChatroomApplication.java:
+    newFile: !uuid 'd8a061c807212772e747fc5203ea972bf3e3692e'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang:
-    newFile: !uuid '5e9b1315ae640dfd33e9af31fb566b3bf44f772c'
+  /网页聊天室/src/main/java/com/example/java_chatroom/api:
+    newFile: !uuid 'a9909c99f996692c9e9a8b74c43a70efbe080ce0'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/JavaGobangApplication.java:
-    newFile: !uuid '050277ac94eae15102c9632269dfcbfe9964add1'
+  /网页聊天室/src/main/java/com/example/java_chatroom/api/FriendAPI.java:
+    newFile: !uuid 'dd7479dc28e8a08519484cf4a273182c94cb9cdd'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/api:
-    newFile: !uuid 'ce1284af492d9a3bf2f09b470b2a64a55961b940'
+  /网页聊天室/src/main/java/com/example/java_chatroom/api/MessageAPI.java:
+    newFile: !uuid '543af252116d4c9dc8c47ed89059ac6712010483'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/api/GameAPI.java:
-    newFile: !uuid 'e4e7241cd99e592923a85af5db4e90aac0216562'
+  /网页聊天室/src/main/java/com/example/java_chatroom/api/MessageRequest.java:
+    newFile: !uuid '1ba693104badd413318d912f2bb16f1ce872cb39'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/api/MatchAPI.java:
-    newFile: !uuid 'c4652ab0522c0ec57445edef37ef30c7d46aee07'
+  /网页聊天室/src/main/java/com/example/java_chatroom/api/MessageResponse.java:
+    newFile: !uuid '5433189ff3216fa6100dc0dce9956b54aadaf80f'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/api/TestAPI.java:
-    newFile: !uuid '8e9384c3a668e3031233bf93bd6e75b2da304b06'
+  /网页聊天室/src/main/java/com/example/java_chatroom/api/MessageSessionAPI.java:
+    newFile: !uuid '6e160319e896b1483e92481f2facb9c28d9dc2dc'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/api/UserAPI.java:
-    newFile: !uuid '5bc5ca66126c77be81875e105b254f7d3e1253ba'
+  /网页聊天室/src/main/java/com/example/java_chatroom/api/TestWebSocketAPI.java:
+    newFile: !uuid '89d7656cb38617a8e6e3092259a7f6149d66b3d2'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/config:
-    newFile: !uuid '882b3e010b64b8ce76dc3ebdd6d1ece6222c95e2'
+  /网页聊天室/src/main/java/com/example/java_chatroom/api/UserAPI.java:
+    newFile: !uuid '1eed098d28db8bc67e43a8d979f1ad2b231bd5aa'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/config/WebSocketConfig.java:
-    newFile: !uuid '119cf490e579371f6a3b49e0571da23bd2ebc1a0'
+  /网页聊天室/src/main/java/com/example/java_chatroom/api/WebSocketAPI.java:
+    newFile: !uuid '800e12fffd113bf2a28be41169e0b3efa491d5fa'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/game:
-    newFile: !uuid 'b3ced861e66433df16d2d7255d2426943dcbdd90'
+  /网页聊天室/src/main/java/com/example/java_chatroom/component:
+    newFile: !uuid 'c91ace59f236d91d20c6353171763707b7841bb6'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/game/GameReadyResponse.java:
-    newFile: !uuid 'c385646169928be2e22dde3f241eace48bd8d46f'
+  /网页聊天室/src/main/java/com/example/java_chatroom/component/OnlineUserManager.java:
+    newFile: !uuid '5c76000125fee6eba459c552d71e2eb0c49376b2'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/game/GameRequest.java:
-    newFile: !uuid '8d36edfbfbda29f02b5a77972f50cd4bdb6aff22'
+  /网页聊天室/src/main/java/com/example/java_chatroom/config:
+    newFile: !uuid 'bb9b55c8ca68d874fe6c529c70e516f313b78a40'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/game/GameResponse.java:
-    newFile: !uuid 'fe372d9575b581117b6e335b134d9cd57ca70c4a'
+  /网页聊天室/src/main/java/com/example/java_chatroom/config/WebSocketConfig.java:
+    newFile: !uuid '253176cf6e330771ef8d0691ec8119cdc18eacf8'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/game/MatchRequest.java:
-    newFile: !uuid '5e6f7163897daa1cec321c10683687a731213061'
+  /网页聊天室/src/main/java/com/example/java_chatroom/model:
+    newFile: !uuid 'd9a22fba9f130155d6e87df35e2ad947ac56368c'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/game/MatchResponse.java:
-    newFile: !uuid 'e399ce9ae76199469561beec7a9707dcd1f44c3d'
+  /网页聊天室/src/main/java/com/example/java_chatroom/model/Friend.java:
+    newFile: !uuid '9775c19927f722319293454b67f7e36260772183'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/game/Matcher.java:
-    newFile: !uuid '089d074c4d2b1303f12c7f9385284bb6e90f6028'
+  /网页聊天室/src/main/java/com/example/java_chatroom/model/FriendMapper.java:
+    newFile: !uuid '849642f1f629176bc5e115ef7b47ba9d296216c8'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/game/OnlineUserManager.java:
-    newFile: !uuid '4314870d011049ffc134c9745fff4f78fa802d43'
+  /网页聊天室/src/main/java/com/example/java_chatroom/model/Message.java:
+    newFile: !uuid '6e5466a67d892beb4be8d823e9371dc9b719aa9a'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/game/Room.java:
-    newFile: !uuid '938a9347a483c5bee3bb21f917634f72c9b2673c'
+  /网页聊天室/src/main/java/com/example/java_chatroom/model/MessageMapper.java:
+    newFile: !uuid '0808e200dd4f591883aad23d545ba062e7b31536'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/game/RoomManager.java:
-    newFile: !uuid '52ff4f7dc4831479a6b03985c173c8208403e1f1'
+  /网页聊天室/src/main/java/com/example/java_chatroom/model/MessageSession.java:
+    newFile: !uuid '1a9d1d3f4ae5d52a8bb4f6102d4b7e06721a3aea'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/model:
-    newFile: !uuid 'd77d2f8929d060ea62d372a0d039f2be19005cbb'
+  /网页聊天室/src/main/java/com/example/java_chatroom/model/MessageSessionMapper.java:
+    newFile: !uuid '0214c6e19757f40e19537301353110cfccfabeaf'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/model/User.java:
-    newFile: !uuid '7702e0c4011b421ba089641c9e915000bef37d50'
+  /网页聊天室/src/main/java/com/example/java_chatroom/model/MessageSessionUserItem.java:
+    newFile: !uuid '57c56cdd638f9818772cf20e1ad479b0b2ba1409'
     oldFile: null
-  /网页五子棋对战/src/main/java/com/example/java_gobang/model/UserMapper.java:
-    newFile: !uuid '34c98b3ea4536501ba8a4885d61b3eebc8e47fd8'
+  /网页聊天室/src/main/java/com/example/java_chatroom/model/User.java:
+    newFile: !uuid '9e86f832feb22002985d73c9ee80054e142e5cba'
     oldFile: null
-  /网页五子棋对战/src/main/resources:
-    newFile: !uuid '1094e53bf4b7c085b683807cc4b461af200e37fe'
+  /网页聊天室/src/main/java/com/example/java_chatroom/model/UserMapper.java:
+    newFile: !uuid 'f2febd327a685bf55439ae4e2e9382e6151031b5'
     oldFile: null
-  /网页五子棋对战/src/main/resources/application.yml:
-    newFile: !uuid '92f37ca7575a429198081428471567b78f86879f'
+  /网页聊天室/src/main/java/db.sql:
+    newFile: !uuid '892914e7daa013232a501b09c05d5b5d972b5952'
     oldFile: null
-  /网页五子棋对战/src/main/resources/mapper:
-    newFile: !uuid 'af81093d173a6b626f11f8f56bec8184e863eca7'
+  /网页聊天室/src/main/resources:
+    newFile: !uuid '1d24a938d9cee539285becb051fbabe729f25d91'
     oldFile: null
-  /网页五子棋对战/src/main/resources/mapper/UserMapper.xml:
-    newFile: !uuid '1ed6cc194adcc1c499f71e8af9438abf6dee55ae'
+  /网页聊天室/src/main/resources/application.yml:
+    newFile: !uuid '250df4936c3a2b4c7fa7e145b1cd3239102b9f32'
     oldFile: null
-  /网页五子棋对战/src/main/resources/static:
-    newFile: !uuid 'f012359acc91168c718a36dfe6764ffb19fa0ac7'
+  /网页聊天室/src/main/resources/mapper:
+    newFile: !uuid '0acd0abf6053a9bee9be0edd1eafef232710e1fe'
     oldFile: null
-  /网页五子棋对战/src/main/resources/static/TestAPI.html:
-    newFile: !uuid '5f24596ed5df9ee9eee28df2ccd3c7a5f800ad76'
+  /网页聊天室/src/main/resources/mapper/FriendMapper.xml:
+    newFile: !uuid 'ac9483c1a24fc767e626f6ed1a083650a9518e95'
     oldFile: null
-  /网页五子棋对战/src/main/resources/static/css:
-    newFile: !uuid '2169c1fa63473e1c3e1ff214cee07269a200516f'
+  /网页聊天室/src/main/resources/mapper/MessageMapper.xml:
+    newFile: !uuid 'ddc08576149f647afef8b3c86fc618c6c1018b28'
     oldFile: null
-  /网页五子棋对战/src/main/resources/static/css/common.css:
-    newFile: !uuid 'd4b4e929dea44b5c531a8ec4cb7eb0db4d013912'
+  /网页聊天室/src/main/resources/mapper/MessageSessionMapper.xml:
+    newFile: !uuid 'f97508e5e8716069c2220bf67acf802dbf42f8b8'
     oldFile: null
-  /网页五子棋对战/src/main/resources/static/css/game_hall.css:
-    newFile: !uuid 'b1631ecbde8e0c8d2051149e91fe6ea66058b0e1'
+  /网页聊天室/src/main/resources/mapper/UserMapper.xml:
+    newFile: !uuid '695a828cfd5dee7898613b85961f930aa686cbf3'
     oldFile: null
-  /网页五子棋对战/src/main/resources/static/css/game_room.css:
-    newFile: !uuid '16a4cb6b9b6b2d90512f288a2dd64ed7b997d72d'
+  /网页聊天室/src/main/resources/static:
+    newFile: !uuid '89f6be682007b27c1b6a78fbea6f76b0c7847075'
     oldFile: null
-  /网页五子棋对战/src/main/resources/static/css/login.css:
-    newFile: !uuid 'f0298360c94e2d33a96d06080f7af6b56d69f5db'
+  /网页聊天室/src/main/resources/static/client.html:
+    newFile: !uuid '61e18cd88b2d4bb9bc2ec4ff7f7b0b75d96b56e0'
     oldFile: null
-  /网页五子棋对战/src/main/resources/static/game_hall.html:
-    newFile: !uuid 'e62922036a95ae97b06825437a73693677d32e08'
+  /网页聊天室/src/main/resources/static/css:
+    newFile: !uuid '6b1e15c26c9502269db74c347cec8f0578636cc7'
     oldFile: null
-  /网页五子棋对战/src/main/resources/static/game_room.html:
-    newFile: !uuid '55c5dd01407c8141599356a1b1775a6e6a4d6958'
+  /网页聊天室/src/main/resources/static/css/client.css:
+    newFile: !uuid '0a85b2ccd7dbd3ec4915325b4e79341777a4660e'
     oldFile: null
-  /网页五子棋对战/src/main/resources/static/image:
-    newFile: !uuid 'cd4bf43acd61a1d104a7085b6321fe8a8fb2ceb6'
+  /网页聊天室/src/main/resources/static/css/common.css:
+    newFile: !uuid '36e44846f1a1926bb477aab5819846c412171b42'
     oldFile: null
-  /网页五子棋对战/src/main/resources/static/image/cat.jpg:
+  /网页聊天室/src/main/resources/static/css/login.css:
+    newFile: !uuid '2e685b86a77837a660bfc81f57ccc616a2fe64de'
+    oldFile: null
+  /网页聊天室/src/main/resources/static/img:
+    newFile: !uuid 'e777030061573ddd05865d9db449ef0b552e776d'
+    oldFile: null
+  /网页聊天室/src/main/resources/static/img/cat.jpg:
     newFile: !uuid 'bf2739a2f43c5b9d27e3cd94d8238c5320879556'
     oldFile: null
-  /网页五子棋对战/src/main/resources/static/image/sky.jpeg:
-    newFile: !uuid 'd9ea12c9b1f2566cc4b4409bebb481a7e62a2bac'
+  /网页聊天室/src/main/resources/static/img/对话.png:
+    newFile: !uuid '5ec5eb8e87f9cbd53e5e7132f93eefa815fba72f'
     oldFile: null
-  /网页五子棋对战/src/main/resources/static/js:
-    newFile: !uuid 'c07c822bf8f32d61d682a980f7419d4ec4c6eb60'
+  /网页聊天室/src/main/resources/static/img/对话2.png:
+    newFile: !uuid 'f55d0a5474c0eb84bfb6f84d793bdc0b8a53b801'
     oldFile: null
-  /网页五子棋对战/src/main/resources/static/js/jquery.min.js:
-    newFile: !uuid '3906124dc528d3d7b96fe7bea29ff28e99a9aeba'
+  /网页聊天室/src/main/resources/static/img/搜索.png:
+    newFile: !uuid 'b6b45266af2e06a3e9142971d554ba35bdc31caf'
     oldFile: null
-  /网页五子棋对战/src/main/resources/static/js/script.js:
-    newFile: !uuid '0d35f21456297e14c21eb083a47e33e87128c6c4'
+  /网页聊天室/src/main/resources/static/img/用户.png:
+    newFile: !uuid '9ca05c843d428c130d5922029d8608128edf047c'
     oldFile: null
-  /网页五子棋对战/src/main/resources/static/login.html:
-    newFile: !uuid 'c4b766b18f8e559281858efaf148d5edcef450d4'
+  /网页聊天室/src/main/resources/static/img/用户2.png:
+    newFile: !uuid '6756e724748677de5a2e58e87e9d8b0f29789ab7'
     oldFile: null
-  /网页五子棋对战/src/main/resources/static/register.html:
-    newFile: !uuid '8fab2ce79ae51c2932c7cc5c273bd226a69bf2c8'
+  /网页聊天室/src/main/resources/static/js:
+    newFile: !uuid '64e3dc8381a988cf3035760c4904429e016e1a27'
     oldFile: null
-  /网页五子棋对战/src/test:
-    newFile: !uuid 'f740630e7c630aa87cd2da100dd9fd33363980e9'
+  /网页聊天室/src/main/resources/static/js/client.js:
+    newFile: !uuid '803830624fc89b76fa4e2b46ea9e097b2675702a'
     oldFile: null
-  /网页五子棋对战/src/test/java:
-    newFile: !uuid '89fed56eeae93de46747c200e559541df636c927'
+  /网页聊天室/src/main/resources/static/login.html:
+    newFile: !uuid '8c4b1b0d44029f016f03946e506fce57a5bd89cc'
     oldFile: null
-  /网页五子棋对战/src/test/java/com:
-    newFile: !uuid 'd9b9e464d0e07b8f3dfd93a139c1e13e67f39435'
+  /网页聊天室/src/main/resources/static/register.html:
+    newFile: !uuid '00b12c028b9161e91d24d8ca616972642a45f9ed'
     oldFile: null
-  /网页五子棋对战/src/test/java/com/example:
-    newFile: !uuid '4abc6ac6f84b487954f2fbd0a26ce412c2fb4927'
+  /网页聊天室/src/main/resources/static/test.html:
+    newFile: !uuid '1208f4ccb0a5580147d923f1b52427c5fd86270f'
     oldFile: null
-  /网页五子棋对战/src/test/java/com/example/java_gobang:
-    newFile: !uuid '977eb39dfd9764fb174acdb8b1274ae52417145b'
+  /网页聊天室/src/test:
+    newFile: !uuid '4c6b36f21942ac6d55f668b534e13af404a38282'
     oldFile: null
-  /网页五子棋对战/src/test/java/com/example/java_gobang/JavaGobangApplicationTests.java:
-    newFile: !uuid '93d3db41fe81103ca11448e3c320ad0a02a51c74'
+  /网页聊天室/src/test/java:
+    newFile: !uuid '18b661a697ebdb440e7a345a2c4c47e925e144cd'
     oldFile: null
-  /网页五子棋对战/板书:
-    newFile: !uuid '018c69d3963ef6bc254feee5335e8ff11fbd7289'
+  /网页聊天室/src/test/java/com:
+    newFile: !uuid '743b03743b753b82b9a70d15705d737042d018f2'
     oldFile: null
-  /网页五子棋对战/板书/网页五子棋1-9.png:
-    newFile: !uuid '96c139e8fcffb9e99a9bf96ea8274bd6fc90ad3e'
+  /网页聊天室/src/test/java/com/example:
+    newFile: !uuid 'ff9c9247080cdc7acfdc27c9cfd82c7140a7b09e'
     oldFile: null
-  /网页五子棋对战/板书/网页五子棋10-22.png:
-    newFile: !uuid 'afb97734fbc18c70d5c058b350f4c025b2da95b0'
+  /网页聊天室/src/test/java/com/example/java_chatroom:
+    newFile: !uuid 'ac38deee17449b307f21c63be77f435816c2878c'
     oldFile: null
-  /网页五子棋对战/板书/网页五子棋23-30.png:
-    newFile: !uuid '07b2977e0e922e1030adee756a99252ecc43faf2'
+  /网页聊天室/src/test/java/com/example/java_chatroom/JavaChatroomApplicationTests.java:
+    newFile: !uuid '1d05b412254baee8e98f1285edd877ad81b3cbb5'
     oldFile: null
-  /网页五子棋对战/板书/网页五子棋31-45.png:
-    newFile: !uuid '75c5e1d5cb6228221f903e2b3cdc68b1b3173d31'
+  /网页聊天室/图片:
+    newFile: !uuid '3c325cf938cb75ac8914a2a5cf4868f3cb853926'
     oldFile: null
-  /网页五子棋对战/板书/网页五子棋46.png:
-    newFile: !uuid 'c9b872925b769b29d0b9cd4cdfa38dc46349ac15'
+  /网页聊天室/图片/cat.jpg:
+    newFile: !uuid 'bf2739a2f43c5b9d27e3cd94d8238c5320879556'
     oldFile: null
-  /网页五子棋对战/板书/网页五子棋47-60.png:
-    newFile: !uuid '1a5e1eaf7d04d293557720630a9c974d19ded0a0'
+  /网页聊天室/图片/不孕不育热线.png:
+    newFile: !uuid '829bfabfaaeb42f812fc804d819a0a8f835765e3'
     oldFile: null
-  /网页五子棋对战/板书/网页五子棋61-71.png:
-    newFile: !uuid '8910aee7f177b8116b0bc6ddf555d44a0ee5081e'
+  /网页聊天室/图片/京东客服.png:
+    newFile: !uuid '6cfb3ee0a70fe46dec3141d6f512b3d72969e1d9'
     oldFile: null
-  /网页五子棋对战/板书/网页五子棋72-74.png:
-    newFile: !uuid 'bd0961c44ead9277c3f60c9ec68a030795c4e638'
+  /网页聊天室/图片/对话.png:
+    newFile: !uuid '5ec5eb8e87f9cbd53e5e7132f93eefa815fba72f'
     oldFile: null
-  /网页五子棋对战/板书/网页五子棋75-84.png:
-    newFile: !uuid '2250521a5f890f14c6d5d29d98bb66a40db02cc8'
+  /网页聊天室/图片/对话2.png:
+    newFile: !uuid 'f55d0a5474c0eb84bfb6f84d793bdc0b8a53b801'
     oldFile: null
-gitCommitId: !uuid '338d0ac8562489989f6ece6c2d0327534c9fdfa3'
+  /网页聊天室/图片/搜索.png:
+    newFile: !uuid 'b6b45266af2e06a3e9142971d554ba35bdc31caf'
+    oldFile: null
+  /网页聊天室/图片/用户.png:
+    newFile: !uuid '9ca05c843d428c130d5922029d8608128edf047c'
+    oldFile: null
+  /网页聊天室/图片/用户2.png:
+    newFile: !uuid '6756e724748677de5a2e58e87e9d8b0f29789ab7'
+    oldFile: null
+  /网页聊天室/图片/网页微信.png:
+    newFile: !uuid '84e002a5bd16f4cfd62e4804a142bf6d5fc819bc'
+    oldFile: null
+  /网页聊天室/图片/网页微信2.png:
+    newFile: !uuid '0be4069d2adc16bb988125011d8729ac73130b4a'
+    oldFile: null
+  /网页聊天室/图片/网页微信3.png:
+    newFile: !uuid 'db3c7066bd442e52b89809116216a24fea1e6fad'
+    oldFile: null
+  /网页聊天室/板书:
+    newFile: !uuid '354d44274ee81709851d2bbdf18f6a6eee4e57e7'
+    oldFile: null
+  /网页聊天室/板书/网页聊天室1-4.png:
+    newFile: !uuid 'd6c8ed947fdee684dd2a9a2ca1be4182bf60ad74'
+    oldFile: null
+  /网页聊天室/板书/网页聊天室102.png:
+    newFile: !uuid 'c31a6196869976cb36f4804ecb69001ab84fc36e'
+    oldFile: null
+  /网页聊天室/板书/网页聊天室103.png:
+    newFile: !uuid '15e00d2ca27b130b6e8036e1625bd0dc0360e323'
+    oldFile: null
+  /网页聊天室/板书/网页聊天室104.png:
+    newFile: !uuid '8d0ff75720aa131cdb287fba822543a6eea5f927'
+    oldFile: null
+  /网页聊天室/板书/网页聊天室18-33.png:
+    newFile: !uuid '8ae615c7d4e03e042e33aec524cbf5b58fcdfbbd'
+    oldFile: null
+  /网页聊天室/板书/网页聊天室34-41.png:
+    newFile: !uuid '510b0b54cf8fec848d6e3912d5c626aa3913e88d'
+    oldFile: null
+  /网页聊天室/板书/网页聊天室35-52.png:
+    newFile: !uuid '6c0f01920796b5ddc68bc76ece4add73fa51de81'
+    oldFile: null
+  /网页聊天室/板书/网页聊天室5-17.png:
+    newFile: !uuid '9b1c473186f011babe800b7c4a6249e29e472f59'
+    oldFile: null
+  /网页聊天室/板书/网页聊天室53-63.png:
+    newFile: !uuid 'b9654140f3c518980676932071b258545966d595'
+    oldFile: null
+  /网页聊天室/板书/网页聊天室64-72.png:
+    newFile: !uuid '9f12031fd8c79c7f740cf627e10e8eaa87a7761a'
+    oldFile: null
+  /网页聊天室/板书/网页聊天室73-77.png:
+    newFile: !uuid '613905c7fc82d6cf98b262ddea9e978d2aed0e7b'
+    oldFile: null
+  /网页聊天室/板书/网页聊天室78-81.png:
+    newFile: !uuid '27e5092ee4c7f2cadafa7f0564471e65566ef2d0'
+    oldFile: null
+  /网页聊天室/板书/网页聊天室82-86.png:
+    newFile: !uuid 'a2642827a22424239f75321af1a0dea3d62f3409'
+    oldFile: null
+  /网页聊天室/板书/网页聊天室87-96.png:
+    newFile: !uuid '9fc433ff7358dfa5f771d05370193aa431ea3a3d'
+    oldFile: null
+  /网页聊天室/板书/网页聊天室97-101.png:
+    newFile: !uuid '1ce806fd9d11e4fd347f556ebe61781fa1b1aa5a'
+    oldFile: null
+gitCommitId: !uuid 'f671f8f158e16fca38217ac39acc10b30d70b535'
 renames: {
   }
-revisionId: 4
+revisionId: 5
