@@ -2,115 +2,283 @@
 branches: {
   }
 fileChange:
-  /搜索引擎(servlet):
-    newFile: !uuid 'afc998789c6f418d5463ad842891c37ecf0d74d5'
+  /模拟实现消息队列:
+    newFile: !uuid '484f0917fae07a78ccb6a48de297f57c14a0bfe8'
     oldFile: null
-  /搜索引擎(servlet)/pom.xml:
-    newFile: !uuid 'd77865ff8fe890b8d6d4ffabe4869877018cd041'
+  /模拟实现消息队列/.gitignore:
+    newFile: !uuid '549e00a2a96fa9d7c5dbc9859664a78d980158c2'
     oldFile: null
-  /搜索引擎(servlet)/src:
-    newFile: !uuid '34357a015ac7edc214d5375d14649ffc61be0784'
+  /模拟实现消息队列/HELP.md:
+    newFile: !uuid 'ec7b4bae43944c434c899463440ed94128ba7640'
     oldFile: null
-  /搜索引擎(servlet)/src/main:
-    newFile: !uuid 'b583ca5c9501ed0c32361c0728224533d502dbe8'
+  /模拟实现消息队列/mq.iml:
+    newFile: !uuid 'de13cd0b3d0f545ed314544602f0e57339a2a520'
     oldFile: null
-  /搜索引擎(servlet)/src/main/java:
-    newFile: !uuid 'c85a6db55be124913f6841ee2debe5320790573f'
+  /模拟实现消息队列/mvnw:
+    newFile: !uuid '8a8fb2282df5b8f7263470a5a2dc0e196f35f35f'
     oldFile: null
-  /搜索引擎(servlet)/src/main/java/api:
-    newFile: !uuid '13af29bc4b10336862264d677e3195477e27c25e'
+  /模拟实现消息队列/mvnw.cmd:
+    newFile: !uuid '1d8ab018eaf11d9b3a4a90e7818ace373dfbb380'
     oldFile: null
-  /搜索引擎(servlet)/src/main/java/api/DocSearcherServlet.java:
-    newFile: !uuid 'd58cc5b2beb5b8a39732b0f6e3bb785cfc68d9f9'
+  /模拟实现消息队列/pom.xml:
+    newFile: !uuid '5349113d5df80102075b0d95797d191c63fcb6de'
     oldFile: null
-  /搜索引擎(servlet)/src/main/java/searcher:
-    newFile: !uuid '0176db865cceaa2fa04b83f512968b778eb54a08'
+  /模拟实现消息队列/src:
+    newFile: !uuid 'e173b4bf018df48347813de7828457850d767ce1'
     oldFile: null
-  /搜索引擎(servlet)/src/main/java/searcher/DocInfo.java:
-    newFile: !uuid '9728efc5066972779a82e4d7b4fc5fa1e517dcc8'
+  /模拟实现消息队列/src/main:
+    newFile: !uuid 'dc09b0adb8279da4900d8750a90da87ac35a4cfd'
     oldFile: null
-  /搜索引擎(servlet)/src/main/java/searcher/DocSearcher.java:
-    newFile: !uuid 'ae03fea23ee0a0f56b7faefb454aaf18eb6400e9'
+  /模拟实现消息队列/src/main/java:
+    newFile: !uuid 'a22f0ce6d913e0a9596f558a7ab9a44786ca17c8'
     oldFile: null
-  /搜索引擎(servlet)/src/main/java/searcher/Index.java:
-    newFile: !uuid 'b5b500fc0c943942a25111fba1469e86cab9c45b'
+  /模拟实现消息队列/src/main/java/com:
+    newFile: !uuid '424edab39bbedacf095d2e1c970c52899f6dc37b'
     oldFile: null
-  /搜索引擎(servlet)/src/main/java/searcher/Parser.java:
-    newFile: !uuid '29b2a579362a06301977b870ec6fe3bffae7707b'
+  /模拟实现消息队列/src/main/java/com/example:
+    newFile: !uuid '047a8f49649b8f28a1f20f5bf21ebb9de2e97776'
     oldFile: null
-  /搜索引擎(servlet)/src/main/java/searcher/Result.java:
-    newFile: !uuid 'bdc30eeb29628092979883576cbe9f902fa0996f'
+  /模拟实现消息队列/src/main/java/com/example/mq:
+    newFile: !uuid 'f0552644ebc07d889fb2d4aa0dd7929df27bd5be'
     oldFile: null
-  /搜索引擎(servlet)/src/main/java/searcher/Weight.java:
-    newFile: !uuid '0d65ed493d1f170fd5ee136532d0919c2248209f'
+  /模拟实现消息队列/src/main/java/com/example/mq/MqApplication.java:
+    newFile: !uuid 'f6a02401a71b55e7fd0a94e7c97184102eb75653'
     oldFile: null
-  /搜索引擎(servlet)/src/main/webapp:
-    newFile: !uuid '48b97d6dbf08331be0d449efdd270afadaabc10a'
+  /模拟实现消息队列/src/main/java/com/example/mq/common:
+    newFile: !uuid '80b5760f2ce0afb8ffe17e535dfc1fc18af2b95a'
     oldFile: null
-  /搜索引擎(servlet)/src/main/webapp/WEB-INF:
-    newFile: !uuid 'ee35bc054af8e3376be07c960841723c3e9a662f'
+  /模拟实现消息队列/src/main/java/com/example/mq/common/BasicAckArguments.java:
+    newFile: !uuid '19822e42c5eabd1ea00499a0c38f914bd554d656'
     oldFile: null
-  /搜索引擎(servlet)/src/main/webapp/WEB-INF/web.xml:
-    newFile: !uuid '2d43fb4cba19d93693a16dd739bd14d0944831ed'
+  /模拟实现消息队列/src/main/java/com/example/mq/common/BasicArguments.java:
+    newFile: !uuid 'dd49b5f6c2f66b9c39f81a1ff8ba42d63d1716e6'
     oldFile: null
-  /搜索引擎(servlet)/src/main/webapp/image:
-    newFile: !uuid '2470a89be09bf553f3baa5bc4ea83969c725bd3c'
+  /模拟实现消息队列/src/main/java/com/example/mq/common/BasicConsumeArguments.java:
+    newFile: !uuid '529b578eb650c935bc99879ce90694c3a750dd16'
     oldFile: null
-  /搜索引擎(servlet)/src/main/webapp/image/cat.jpg:
-    newFile: !uuid 'bf2739a2f43c5b9d27e3cd94d8238c5320879556'
+  /模拟实现消息队列/src/main/java/com/example/mq/common/BasicPublishArguments.java:
+    newFile: !uuid 'bcd8b95e79735984f06fc22a5b7523daac10d1f6'
     oldFile: null
-  /搜索引擎(servlet)/src/main/webapp/index.html:
-    newFile: !uuid '1d06aaf9198b869579cdc52569dfa47ed9c5226e'
+  /模拟实现消息队列/src/main/java/com/example/mq/common/BasicReturns.java:
+    newFile: !uuid '59b90ab76f23887d0de10c38c14b3c625b24a707'
     oldFile: null
-  /搜索引擎(servlet)/src/main/webapp/js:
-    newFile: !uuid '0578e6d1697eb9ee74c4bbf8b0de43473be8fde5'
+  /模拟实现消息队列/src/main/java/com/example/mq/common/BinaryTool.java:
+    newFile: !uuid '95638fdc01e7b11f76ec295f02491ed03b4463a7'
     oldFile: null
-  /搜索引擎(servlet)/src/main/webapp/js/jquery.js:
-    newFile: !uuid '3906124dc528d3d7b96fe7bea29ff28e99a9aeba'
+  /模拟实现消息队列/src/main/java/com/example/mq/common/Consumer.java:
+    newFile: !uuid '373c57032a028632d1d75b595a098fc9e0c8834e'
     oldFile: null
-  /搜索引擎(servlet)/src/test:
-    newFile: !uuid '4403e7c4bfa6bcf567f48a3f0333535c6ade9d46'
+  /模拟实现消息队列/src/main/java/com/example/mq/common/ConsumerEnv.java:
+    newFile: !uuid '27d7343b970f33c0c11eb08b1cf48657f89e53e0'
     oldFile: null
-  /搜索引擎(servlet)/src/test/java:
-    newFile: !uuid '483e7dc4310c87d6fee99eeed7a0ab936ec66a36'
+  /模拟实现消息队列/src/main/java/com/example/mq/common/ExchangeDeclareArguments.java:
+    newFile: !uuid 'a3704daccd5d5b14099f65b99a50f215a8ea1186'
     oldFile: null
-  /搜索引擎(servlet)/src/test/java/TestAnsj.java:
-    newFile: !uuid '6b7425bdf4954b1424965ed4187cdb8cc9172303'
+  /模拟实现消息队列/src/main/java/com/example/mq/common/ExchangeDeleteArguments.java:
+    newFile: !uuid 'd1548cfd7eac2e9692cb39a03d2f66644beab556'
     oldFile: null
-  /搜索引擎(servlet)/src/test/java/TestGetName.java:
-    newFile: !uuid '439b915f716a6bd0f3ef695c02aee548e3b556a1'
+  /模拟实现消息队列/src/main/java/com/example/mq/common/MqException.java:
+    newFile: !uuid '3766b08fe9e7e70f6bf2d18a556f56a5ed7e52ec'
     oldFile: null
-  /搜索引擎(servlet)/src/test/java/TestParseContent.java:
-    newFile: !uuid '1329d149dd9550f415ecc2f97889b1198f4ce325'
+  /模拟实现消息队列/src/main/java/com/example/mq/common/QueueBindArguments.java:
+    newFile: !uuid '7dd2d058c20deb8a66970206f8ac8408c9195afa'
     oldFile: null
-  /搜索引擎(servlet)/src/test/java/TestURL.java:
-    newFile: !uuid '43d7805e557402c9fc7ca25c2de0b5502eb44988'
+  /模拟实现消息队列/src/main/java/com/example/mq/common/QueueDeclareArguments.java:
+    newFile: !uuid '8492e3e62588a5d53a5a51a0f663b2c295f5bc0f'
     oldFile: null
-  /搜索引擎(servlet)/stop_word.txt:
-    newFile: !uuid 'd90c403804bab6454c5c2ae76f642311c1a3f695'
+  /模拟实现消息队列/src/main/java/com/example/mq/common/QueueDeleteArguments.java:
+    newFile: !uuid '403caa3648aafcbf1844b3c0b68c4e9635927cff'
     oldFile: null
-  /搜索引擎(servlet)/搜索引擎项目板书:
-    newFile: !uuid 'f5c4483e86c9da3d7130b813f4e082cf45a0bd1d'
+  /模拟实现消息队列/src/main/java/com/example/mq/common/QueueUnbindArguments.java:
+    newFile: !uuid '67e298e044bd30e02c3e08de834b6e4e9db7a557'
     oldFile: null
-  /搜索引擎(servlet)/搜索引擎项目板书/搜索引擎项目视频1.png:
-    newFile: !uuid '1b645d11d2c443680a6f902b730da5f6e6038b04'
+  /模拟实现消息队列/src/main/java/com/example/mq/common/Request.java:
+    newFile: !uuid 'f7bffaebd55ac068920cceb1b6b72d9f3424cef8'
     oldFile: null
-  /搜索引擎(servlet)/搜索引擎项目板书/搜索引擎项目视频2.png:
-    newFile: !uuid '9019503967648e1c1e3bcbc9003858f9c809b8c2'
+  /模拟实现消息队列/src/main/java/com/example/mq/common/Response.java:
+    newFile: !uuid '033a327629fb226d28e74c78dc55905bef5556a7'
     oldFile: null
-  /搜索引擎(servlet)/搜索引擎项目板书/搜索引擎项目视频3.png:
-    newFile: !uuid 'a93d7b3ad8f97245ab2a1d010dd936c4b3af36e2'
+  /模拟实现消息队列/src/main/java/com/example/mq/common/SubScribeReturns.java:
+    newFile: !uuid 'acf00a515a70e25739fe018e5c25dc35d0a1b0e5'
     oldFile: null
-  /搜索引擎(servlet)/搜索引擎项目板书/搜索引擎项目视频4.png:
-    newFile: !uuid '6cb28d2f7eae7565134e216f6c733053864caf1f'
+  /模拟实现消息队列/src/main/java/com/example/mq/demo:
+    newFile: !uuid 'e5ef62459d9f16de07b842957403ef82677fbf2e'
     oldFile: null
-  /搜索引擎(servlet)/搜索引擎项目板书/搜索引擎项目视频5.png:
-    newFile: !uuid 'fd6f8a53f689e9d4283043b248b67a8dd28b2a8c'
+  /模拟实现消息队列/src/main/java/com/example/mq/demo/DemoConsumer.java:
+    newFile: !uuid 'e545111e7e1065859371edb8ab8901e0a76a8f59'
     oldFile: null
-  /搜索引擎(servlet)/搜索引擎项目板书/搜索引擎项目视频6.png:
-    newFile: !uuid '23002b7742b99f4fb0b62e1c179ba0560704d99c'
+  /模拟实现消息队列/src/main/java/com/example/mq/demo/DemoProducer.java:
+    newFile: !uuid '6e66e690ed570856df7c42d99f00d9ff9925f6db'
     oldFile: null
-gitCommitId: !uuid '856edab3adf5420c6a784616f370bb515357659d'
+  /模拟实现消息队列/src/main/java/com/example/mq/mqclient:
+    newFile: !uuid '3923658ab8913d73b0396731cff0cd8c8ba10bcb'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqclient/Channel.java:
+    newFile: !uuid 'b81956e067771dc09614bdcc0e3b6ba4e2bf4da6'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqclient/Connection.java:
+    newFile: !uuid 'f038b4da29751a2885246dae01a4b3f3750e1206'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqclient/ConnectionFactory.java:
+    newFile: !uuid 'db8e869d33958d4c22349255804840d130776ae6'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqserver:
+    newFile: !uuid '9ac59911e6c5381b9a743c49840d345c1cb298d3'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqserver/BrokerServer.java:
+    newFile: !uuid 'ca4ec22982ee218f166246f0789311eac6ddf2b6'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqserver/VirtualHost.java:
+    newFile: !uuid 'd8edf4db31743491b563333a794743f52c1b0477'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqserver/core:
+    newFile: !uuid 'b90c165f765932274a537135fef459b9cc217979'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqserver/core/BasicProperties.java:
+    newFile: !uuid 'f6840065c0c80357812622111d5bb782511be02f'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqserver/core/Binding.java:
+    newFile: !uuid '021466311ce7d864213c743c3f7c66e43a26fe9f'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqserver/core/ConsumerManager.java:
+    newFile: !uuid '64f3d95446790ae5a07c6591caebf2411d5d2031'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqserver/core/Exchange.java:
+    newFile: !uuid 'f1d5229c6fbd044e6f62a088fe58e6e0ba8b407b'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqserver/core/ExchangeType.java:
+    newFile: !uuid '51fa3451b3ed8dd0a01adaefc70b135a281e38e7'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqserver/core/MSGQueue.java:
+    newFile: !uuid '7e5b97f30183469e9c4ff56cb922deefb076692c'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqserver/core/Message.java:
+    newFile: !uuid '0d8f2ba23c0271e438df4209462a82f25891865b'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqserver/core/Router.java:
+    newFile: !uuid '1f4112a82fc6d59eb655f41c5f1e3c07fb2e60d8'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqserver/datacenter:
+    newFile: !uuid '8b75f4694af6c3c41c25322ff10aec351ba3000a'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqserver/datacenter/DataBaseManager.java:
+    newFile: !uuid 'cb9ba4a1753d62dca9d7dffa4cb2bc3338b2f129'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqserver/datacenter/DiskDataCenter.java:
+    newFile: !uuid '76d20c2177f0b6d7b8975f9bac935d45a7865321'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqserver/datacenter/MemoryDataCenter.java:
+    newFile: !uuid '019874e4964df080508583c030ac08a3966bb10a'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqserver/datacenter/MessageFileManager.java:
+    newFile: !uuid '70822eaf0dd2ab1ca7111fafd3d17516a817d6f0'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqserver/mapper:
+    newFile: !uuid '2adebcdc32a4dd0fde0bcd1cfeb69460e4010505'
+    oldFile: null
+  /模拟实现消息队列/src/main/java/com/example/mq/mqserver/mapper/MetaMapper.java:
+    newFile: !uuid '55331715978e85ccafbb893c081ead962533202f'
+    oldFile: null
+  /模拟实现消息队列/src/main/resources:
+    newFile: !uuid '8a72f8e5e75b45c9493e9ebf72a3904e72ed1c70'
+    oldFile: null
+  /模拟实现消息队列/src/main/resources/application.yaml:
+    newFile: !uuid 'b5931edaf80b4f444c31323c461bac473a3dd06e'
+    oldFile: null
+  /模拟实现消息队列/src/main/resources/mapper:
+    newFile: !uuid 'f570caff634b5ff34a29b232b77c01c4c263ce8a'
+    oldFile: null
+  /模拟实现消息队列/src/main/resources/mapper/MetaMapper.xml:
+    newFile: !uuid 'acf925ea1fcb6df26014ef8b5b49b8cef8b285c3'
+    oldFile: null
+  /模拟实现消息队列/src/test:
+    newFile: !uuid '9467685e205ec696f6ca75f185bdc27514034a96'
+    oldFile: null
+  /模拟实现消息队列/src/test/java:
+    newFile: !uuid '1839c35d4c3a0b500b4661e0a93156420c3e8e2b'
+    oldFile: null
+  /模拟实现消息队列/src/test/java/com:
+    newFile: !uuid '1295c61a6ffa58bae49f6a4bf367f2242b0c6d6f'
+    oldFile: null
+  /模拟实现消息队列/src/test/java/com/example:
+    newFile: !uuid '158c0f7008f6147f58aec2055c13cdd2d7d6d1fa'
+    oldFile: null
+  /模拟实现消息队列/src/test/java/com/example/mq:
+    newFile: !uuid 'b5ced49547eda79fae483da26c586bc10fa63960'
+    oldFile: null
+  /模拟实现消息队列/src/test/java/com/example/mq/DataBaseManagerTests.java:
+    newFile: !uuid '15c0eb4548a755a227f824d3aa5636bde8e42dae'
+    oldFile: null
+  /模拟实现消息队列/src/test/java/com/example/mq/MemoryDataCenterTests.java:
+    newFile: !uuid '00680e26df566ff18bb79db15575626c23de7ea8'
+    oldFile: null
+  /模拟实现消息队列/src/test/java/com/example/mq/MessageFileManagerTests.java:
+    newFile: !uuid '13651326ebe5c898b8760ee6fee7924e90967a6c'
+    oldFile: null
+  /模拟实现消息队列/src/test/java/com/example/mq/MqApplicationTests.java:
+    newFile: !uuid '9ba3cacb5bbb09b3da76d3fa4da46385ddbeb720'
+    oldFile: null
+  /模拟实现消息队列/src/test/java/com/example/mq/MqClientTests.java:
+    newFile: !uuid 'c0bbec6a4ace3bfb703911e393d8843b269644b9'
+    oldFile: null
+  /模拟实现消息队列/src/test/java/com/example/mq/RouterTests.java:
+    newFile: !uuid 'd36c54b0be55a852b4e5e060048547316497b169'
+    oldFile: null
+  /模拟实现消息队列/src/test/java/com/example/mq/VirtualHostTests.java:
+    newFile: !uuid 'f02a60c78c25b72b2daea6ec49dd108ac35c9f58'
+    oldFile: null
+  /模拟实现消息队列/板书:
+    newFile: !uuid '34805f52afcce84753733e0e46ab84e4f95f3b1d'
+    oldFile: null
+  /模拟实现消息队列/板书/消息队列1-5.png:
+    newFile: !uuid 'ca1146428cf742af36fb51b59814e1d50de5ca3f'
+    oldFile: null
+  /模拟实现消息队列/板书/消息队列110-125.png:
+    newFile: !uuid 'f18a3c589eb73800c72f4edf8589cff43a2875bb'
+    oldFile: null
+  /模拟实现消息队列/板书/消息队列126-141.png:
+    newFile: !uuid 'f00fe97c1732cf0d13380e1e0849579d591c0c01'
+    oldFile: null
+  /模拟实现消息队列/板书/消息队列13-15.png:
+    newFile: !uuid 'f17c3673f85e611a39aeeda7410cec8d6b2dcece'
+    oldFile: null
+  /模拟实现消息队列/板书/消息队列142-150.png:
+    newFile: !uuid '5caab2fe13b4665c61b100dcf4c10053069b5902'
+    oldFile: null
+  /模拟实现消息队列/板书/消息队列151-160.png:
+    newFile: !uuid '5ac7b56adb7cf4f434410a79c9df0be8ccd038e6'
+    oldFile: null
+  /模拟实现消息队列/板书/消息队列16-24.png:
+    newFile: !uuid '6485216334da35de89a68cb0df61e8dc648b7b15'
+    oldFile: null
+  /模拟实现消息队列/板书/消息队列161.png:
+    newFile: !uuid '05ec6556e6d977f36e8b71b23020b2a60f2a8a3b'
+    oldFile: null
+  /模拟实现消息队列/板书/消息队列25-32.png:
+    newFile: !uuid '9743dba98b92b5ed613298df251e89368008517f'
+    oldFile: null
+  /模拟实现消息队列/板书/消息队列33-43.png:
+    newFile: !uuid 'ef4307d2f6453ee0420ed5d7983430547e2f1106'
+    oldFile: null
+  /模拟实现消息队列/板书/消息队列44-53.png:
+    newFile: !uuid '0757f936e22fbb2f5448d155fdc721397d3420e6'
+    oldFile: null
+  /模拟实现消息队列/板书/消息队列54-65.png:
+    newFile: !uuid 'a6ab7723dd6278fc536135c83763cf3986910cd6'
+    oldFile: null
+  /模拟实现消息队列/板书/消息队列6-12.png:
+    newFile: !uuid 'ca46d1fa66316b1c4ddb3862801354152fa81f08'
+    oldFile: null
+  /模拟实现消息队列/板书/消息队列66-73.png:
+    newFile: !uuid '13a6d8ba816fac506474e2823381f971ac1bbd52'
+    oldFile: null
+  /模拟实现消息队列/板书/消息队列74-91.png:
+    newFile: !uuid 'bfbcd694792a411e1b53ce8d38cb9bd2ce82aa80'
+    oldFile: null
+  /模拟实现消息队列/板书/消息队列92-109.png:
+    newFile: !uuid '263b9af85dc9fce917306d6a3e55872bffcafb47'
+    oldFile: null
+gitCommitId: !uuid 'f9f7c621bb31f8ab517e1a560e5e58ad7240d9c1'
 renames: {
   }
-revisionId: 7
+revisionId: 8
