@@ -2,298 +2,118 @@
 branches: {
   }
 fileChange:
-  /网页聊天室:
-    newFile: !uuid 'ee3b5132a215bb2bf37fa0f60c9dc3457a616be0'
+  /搜索引擎(spring):
+    newFile: !uuid '865b459145549c5fb4b4ab1cd093ae3171d394f8'
     oldFile: null
-  /网页聊天室/.gitignore:
+  /搜索引擎(spring)/.gitignore:
     newFile: !uuid '549e00a2a96fa9d7c5dbc9859664a78d980158c2'
     oldFile: null
-  /网页聊天室/HELP.md:
-    newFile: !uuid '6402686d5ed0b1b135ef1807c11ee576c5547e90'
+  /搜索引擎(spring)/HELP.md:
+    newFile: !uuid '6376a3958481e88330db060bf578e7a84fce5b87'
     oldFile: null
-  /网页聊天室/java_chatroom.iml:
-    newFile: !uuid '10f787e3ab1f5e08278ef0d0ea61e307d37a5b43'
+  /搜索引擎(spring)/mvnw:
+    newFile: !uuid 'a16b5431b4c3cab50323a3f558003fd0abd87dad'
     oldFile: null
-  /网页聊天室/mvnw:
-    newFile: !uuid '8a8fb2282df5b8f7263470a5a2dc0e196f35f35f'
+  /搜索引擎(spring)/mvnw.cmd:
+    newFile: !uuid 'c8d43372c986d97911cdc21bd87e0cbe3d83bdda'
     oldFile: null
-  /网页聊天室/mvnw.cmd:
-    newFile: !uuid '1d8ab018eaf11d9b3a4a90e7818ace373dfbb380'
+  /搜索引擎(spring)/pom.xml:
+    newFile: !uuid '067c19fa0bedf58dac3d3b544b2ed872dc908f31'
     oldFile: null
-  /网页聊天室/pom.xml:
-    newFile: !uuid '15cc131732a84c5e082b510d522fc096716f0ae0'
+  /搜索引擎(spring)/src:
+    newFile: !uuid '8802442d56cebea66edea987ce0ed81424b48327'
     oldFile: null
-  /网页聊天室/src:
-    newFile: !uuid '07fca59f8dea9eaf52b16e59de4cf34abaf6977d'
+  /搜索引擎(spring)/src/main:
+    newFile: !uuid '496a07de02225b648637e7d0433d6a44cde530ae'
     oldFile: null
-  /网页聊天室/src/main:
-    newFile: !uuid '6f2e5bf8279964c27e44e2ee6106ef7ed6e19a09'
+  /搜索引擎(spring)/src/main/java:
+    newFile: !uuid '2960f14aa1f16be6ef2a63176547c09068895fb5'
     oldFile: null
-  /网页聊天室/src/main/java:
-    newFile: !uuid 'a8ea5b66e17c2af1043c3fc46a299f5f5a476ed2'
+  /搜索引擎(spring)/src/main/java/com:
+    newFile: !uuid '295ea6431649ac34a52f9586e5cf60dbf4452947'
     oldFile: null
-  /网页聊天室/src/main/java/com:
-    newFile: !uuid '8c552a07de9ecfb28bfc1d6ed51034167215fc66'
+  /搜索引擎(spring)/src/main/java/com/bit:
+    newFile: !uuid '375ee42f7aa827dfb88a3d4f660a7d919fa9ceaa'
     oldFile: null
-  /网页聊天室/src/main/java/com/example:
-    newFile: !uuid '71b93547f12bc14b9d8047280f87a7ac348524db'
+  /搜索引擎(spring)/src/main/java/com/bit/java_doc_searcher:
+    newFile: !uuid '328c71679d075e22da17f2b197b0b6bb8f3bee98'
     oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom:
-    newFile: !uuid '65e34b9fac810f78b110bda40ec29541805c36ff'
+  /搜索引擎(spring)/src/main/java/com/bit/java_doc_searcher/JavaDocSearcher2021SpringbootApplication.java:
+    newFile: !uuid 'd129f16a89126cc901c5f538f89a9d1027bd41b0'
     oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/JavaChatroomApplication.java:
-    newFile: !uuid 'd8a061c807212772e747fc5203ea972bf3e3692e'
+  /搜索引擎(spring)/src/main/java/com/bit/java_doc_searcher/controller:
+    newFile: !uuid 'd0d8dce574f1292b5634f154533c6cbe30c58e51'
     oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/api:
-    newFile: !uuid 'a9909c99f996692c9e9a8b74c43a70efbe080ce0'
+  /搜索引擎(spring)/src/main/java/com/bit/java_doc_searcher/controller/DocSearcherController.java:
+    newFile: !uuid '35ba47dcddbb688bb953949c1aced79e70a08a0a'
     oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/api/FriendAPI.java:
-    newFile: !uuid 'dd7479dc28e8a08519484cf4a273182c94cb9cdd'
+  /搜索引擎(spring)/src/main/java/com/bit/java_doc_searcher/searcher:
+    newFile: !uuid 'ed3803db0d4314cdcef867512abf939a167d1663'
     oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/api/MessageAPI.java:
-    newFile: !uuid '543af252116d4c9dc8c47ed89059ac6712010483'
+  /搜索引擎(spring)/src/main/java/com/bit/java_doc_searcher/searcher/Config.java:
+    newFile: !uuid 'b66d618b8250b70bef0f6f84a2b4ee54492bf044'
     oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/api/MessageRequest.java:
-    newFile: !uuid '1ba693104badd413318d912f2bb16f1ce872cb39'
+  /搜索引擎(spring)/src/main/java/com/bit/java_doc_searcher/searcher/DocInfo.java:
+    newFile: !uuid 'fa24918b95d5858b476deb1d561d7a0efee9a59b'
     oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/api/MessageResponse.java:
-    newFile: !uuid '5433189ff3216fa6100dc0dce9956b54aadaf80f'
+  /搜索引擎(spring)/src/main/java/com/bit/java_doc_searcher/searcher/DocSearcher.java:
+    newFile: !uuid '838fa1ae1072399dde039a2fe57afdd11d5283bf'
     oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/api/MessageSessionAPI.java:
-    newFile: !uuid '6e160319e896b1483e92481f2facb9c28d9dc2dc'
+  /搜索引擎(spring)/src/main/java/com/bit/java_doc_searcher/searcher/Index.java:
+    newFile: !uuid '1cefa126847724f1d0eceb34aef6fb7ca0ce2d1b'
     oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/api/TestWebSocketAPI.java:
-    newFile: !uuid '89d7656cb38617a8e6e3092259a7f6149d66b3d2'
+  /搜索引擎(spring)/src/main/java/com/bit/java_doc_searcher/searcher/Parser.java:
+    newFile: !uuid 'af424f585aec10adc0bb4d902fc75904a664736c'
     oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/api/UserAPI.java:
-    newFile: !uuid '1eed098d28db8bc67e43a8d979f1ad2b231bd5aa'
+  /搜索引擎(spring)/src/main/java/com/bit/java_doc_searcher/searcher/Result.java:
+    newFile: !uuid 'ed2bc2e5fa68f7a81fee2d23eb755edecf721a7a'
     oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/api/WebSocketAPI.java:
-    newFile: !uuid '800e12fffd113bf2a28be41169e0b3efa491d5fa'
+  /搜索引擎(spring)/src/main/java/com/bit/java_doc_searcher/searcher/Weight.java:
+    newFile: !uuid 'f97566df0eda214b8054b9da28622662688904f6'
     oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/component:
-    newFile: !uuid 'c91ace59f236d91d20c6353171763707b7841bb6'
+  /搜索引擎(spring)/src/main/resources:
+    newFile: !uuid '0d891d4da5ce8000f17acb241433f07f114ab3b3'
     oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/component/OnlineUserManager.java:
-    newFile: !uuid '5c76000125fee6eba459c552d71e2eb0c49376b2'
+  /搜索引擎(spring)/src/main/resources/application.properties:
+    newFile: !uuid '8b137891791fe96927ad78e64b0aad7bded08bdc'
     oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/config:
-    newFile: !uuid 'bb9b55c8ca68d874fe6c529c70e516f313b78a40'
+  /搜索引擎(spring)/src/main/resources/static:
+    newFile: !uuid '31434ee9295639d0ec564e797372315b4051913c'
     oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/config/WebSocketConfig.java:
-    newFile: !uuid '253176cf6e330771ef8d0691ec8119cdc18eacf8'
+  /搜索引擎(spring)/src/main/resources/static/image:
+    newFile: !uuid '2470a89be09bf553f3baa5bc4ea83969c725bd3c'
     oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/model:
-    newFile: !uuid 'd9a22fba9f130155d6e87df35e2ad947ac56368c'
-    oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/model/Friend.java:
-    newFile: !uuid '9775c19927f722319293454b67f7e36260772183'
-    oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/model/FriendMapper.java:
-    newFile: !uuid '849642f1f629176bc5e115ef7b47ba9d296216c8'
-    oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/model/Message.java:
-    newFile: !uuid '6e5466a67d892beb4be8d823e9371dc9b719aa9a'
-    oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/model/MessageMapper.java:
-    newFile: !uuid '0808e200dd4f591883aad23d545ba062e7b31536'
-    oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/model/MessageSession.java:
-    newFile: !uuid '1a9d1d3f4ae5d52a8bb4f6102d4b7e06721a3aea'
-    oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/model/MessageSessionMapper.java:
-    newFile: !uuid '0214c6e19757f40e19537301353110cfccfabeaf'
-    oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/model/MessageSessionUserItem.java:
-    newFile: !uuid '57c56cdd638f9818772cf20e1ad479b0b2ba1409'
-    oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/model/User.java:
-    newFile: !uuid '9e86f832feb22002985d73c9ee80054e142e5cba'
-    oldFile: null
-  /网页聊天室/src/main/java/com/example/java_chatroom/model/UserMapper.java:
-    newFile: !uuid 'f2febd327a685bf55439ae4e2e9382e6151031b5'
-    oldFile: null
-  /网页聊天室/src/main/java/db.sql:
-    newFile: !uuid '892914e7daa013232a501b09c05d5b5d972b5952'
-    oldFile: null
-  /网页聊天室/src/main/resources:
-    newFile: !uuid '1d24a938d9cee539285becb051fbabe729f25d91'
-    oldFile: null
-  /网页聊天室/src/main/resources/application.yml:
-    newFile: !uuid '250df4936c3a2b4c7fa7e145b1cd3239102b9f32'
-    oldFile: null
-  /网页聊天室/src/main/resources/mapper:
-    newFile: !uuid '0acd0abf6053a9bee9be0edd1eafef232710e1fe'
-    oldFile: null
-  /网页聊天室/src/main/resources/mapper/FriendMapper.xml:
-    newFile: !uuid 'ac9483c1a24fc767e626f6ed1a083650a9518e95'
-    oldFile: null
-  /网页聊天室/src/main/resources/mapper/MessageMapper.xml:
-    newFile: !uuid 'ddc08576149f647afef8b3c86fc618c6c1018b28'
-    oldFile: null
-  /网页聊天室/src/main/resources/mapper/MessageSessionMapper.xml:
-    newFile: !uuid 'f97508e5e8716069c2220bf67acf802dbf42f8b8'
-    oldFile: null
-  /网页聊天室/src/main/resources/mapper/UserMapper.xml:
-    newFile: !uuid '695a828cfd5dee7898613b85961f930aa686cbf3'
-    oldFile: null
-  /网页聊天室/src/main/resources/static:
-    newFile: !uuid '89f6be682007b27c1b6a78fbea6f76b0c7847075'
-    oldFile: null
-  /网页聊天室/src/main/resources/static/client.html:
-    newFile: !uuid '61e18cd88b2d4bb9bc2ec4ff7f7b0b75d96b56e0'
-    oldFile: null
-  /网页聊天室/src/main/resources/static/css:
-    newFile: !uuid '6b1e15c26c9502269db74c347cec8f0578636cc7'
-    oldFile: null
-  /网页聊天室/src/main/resources/static/css/client.css:
-    newFile: !uuid '0a85b2ccd7dbd3ec4915325b4e79341777a4660e'
-    oldFile: null
-  /网页聊天室/src/main/resources/static/css/common.css:
-    newFile: !uuid '36e44846f1a1926bb477aab5819846c412171b42'
-    oldFile: null
-  /网页聊天室/src/main/resources/static/css/login.css:
-    newFile: !uuid '2e685b86a77837a660bfc81f57ccc616a2fe64de'
-    oldFile: null
-  /网页聊天室/src/main/resources/static/img:
-    newFile: !uuid 'e777030061573ddd05865d9db449ef0b552e776d'
-    oldFile: null
-  /网页聊天室/src/main/resources/static/img/cat.jpg:
+  /搜索引擎(spring)/src/main/resources/static/image/cat.jpg:
     newFile: !uuid 'bf2739a2f43c5b9d27e3cd94d8238c5320879556'
     oldFile: null
-  /网页聊天室/src/main/resources/static/img/对话.png:
-    newFile: !uuid '5ec5eb8e87f9cbd53e5e7132f93eefa815fba72f'
+  /搜索引擎(spring)/src/main/resources/static/index.html:
+    newFile: !uuid '1d06aaf9198b869579cdc52569dfa47ed9c5226e'
     oldFile: null
-  /网页聊天室/src/main/resources/static/img/对话2.png:
-    newFile: !uuid 'f55d0a5474c0eb84bfb6f84d793bdc0b8a53b801'
+  /搜索引擎(spring)/src/main/resources/static/js:
+    newFile: !uuid '0578e6d1697eb9ee74c4bbf8b0de43473be8fde5'
     oldFile: null
-  /网页聊天室/src/main/resources/static/img/搜索.png:
-    newFile: !uuid 'b6b45266af2e06a3e9142971d554ba35bdc31caf'
+  /搜索引擎(spring)/src/main/resources/static/js/jquery.js:
+    newFile: !uuid '3906124dc528d3d7b96fe7bea29ff28e99a9aeba'
     oldFile: null
-  /网页聊天室/src/main/resources/static/img/用户.png:
-    newFile: !uuid '9ca05c843d428c130d5922029d8608128edf047c'
+  /搜索引擎(spring)/src/test:
+    newFile: !uuid 'cc29b29e29a5b7231a2811fa7f61216116df33d9'
     oldFile: null
-  /网页聊天室/src/main/resources/static/img/用户2.png:
-    newFile: !uuid '6756e724748677de5a2e58e87e9d8b0f29789ab7'
+  /搜索引擎(spring)/src/test/java:
+    newFile: !uuid '0338484f3393363b1bc0b998c11581de9c284410'
     oldFile: null
-  /网页聊天室/src/main/resources/static/js:
-    newFile: !uuid '64e3dc8381a988cf3035760c4904429e016e1a27'
+  /搜索引擎(spring)/src/test/java/com:
+    newFile: !uuid '0deea2d43a1f7674d888fcb682f8ea24cfc75aaf'
     oldFile: null
-  /网页聊天室/src/main/resources/static/js/client.js:
-    newFile: !uuid '803830624fc89b76fa4e2b46ea9e097b2675702a'
+  /搜索引擎(spring)/src/test/java/com/bit:
+    newFile: !uuid 'd6254ba07597245d340e39d9844fe3ec079d9ced'
     oldFile: null
-  /网页聊天室/src/main/resources/static/login.html:
-    newFile: !uuid '8c4b1b0d44029f016f03946e506fce57a5bd89cc'
+  /搜索引擎(spring)/src/test/java/com/bit/java_doc_searcher:
+    newFile: !uuid 'fcb3629dfd79429b007b2112ae5f6edb0662b127'
     oldFile: null
-  /网页聊天室/src/main/resources/static/register.html:
-    newFile: !uuid '00b12c028b9161e91d24d8ca616972642a45f9ed'
+  /搜索引擎(spring)/src/test/java/com/bit/java_doc_searcher/JavaDocSearcher2021SpringbootApplicationTests.java:
+    newFile: !uuid '506f1dbcacc8b48de5d772824074462816b3c75f'
     oldFile: null
-  /网页聊天室/src/main/resources/static/test.html:
-    newFile: !uuid '1208f4ccb0a5580147d923f1b52427c5fd86270f'
-    oldFile: null
-  /网页聊天室/src/test:
-    newFile: !uuid '4c6b36f21942ac6d55f668b534e13af404a38282'
-    oldFile: null
-  /网页聊天室/src/test/java:
-    newFile: !uuid '18b661a697ebdb440e7a345a2c4c47e925e144cd'
-    oldFile: null
-  /网页聊天室/src/test/java/com:
-    newFile: !uuid '743b03743b753b82b9a70d15705d737042d018f2'
-    oldFile: null
-  /网页聊天室/src/test/java/com/example:
-    newFile: !uuid 'ff9c9247080cdc7acfdc27c9cfd82c7140a7b09e'
-    oldFile: null
-  /网页聊天室/src/test/java/com/example/java_chatroom:
-    newFile: !uuid 'ac38deee17449b307f21c63be77f435816c2878c'
-    oldFile: null
-  /网页聊天室/src/test/java/com/example/java_chatroom/JavaChatroomApplicationTests.java:
-    newFile: !uuid '1d05b412254baee8e98f1285edd877ad81b3cbb5'
-    oldFile: null
-  /网页聊天室/图片:
-    newFile: !uuid '3c325cf938cb75ac8914a2a5cf4868f3cb853926'
-    oldFile: null
-  /网页聊天室/图片/cat.jpg:
-    newFile: !uuid 'bf2739a2f43c5b9d27e3cd94d8238c5320879556'
-    oldFile: null
-  /网页聊天室/图片/不孕不育热线.png:
-    newFile: !uuid '829bfabfaaeb42f812fc804d819a0a8f835765e3'
-    oldFile: null
-  /网页聊天室/图片/京东客服.png:
-    newFile: !uuid '6cfb3ee0a70fe46dec3141d6f512b3d72969e1d9'
-    oldFile: null
-  /网页聊天室/图片/对话.png:
-    newFile: !uuid '5ec5eb8e87f9cbd53e5e7132f93eefa815fba72f'
-    oldFile: null
-  /网页聊天室/图片/对话2.png:
-    newFile: !uuid 'f55d0a5474c0eb84bfb6f84d793bdc0b8a53b801'
-    oldFile: null
-  /网页聊天室/图片/搜索.png:
-    newFile: !uuid 'b6b45266af2e06a3e9142971d554ba35bdc31caf'
-    oldFile: null
-  /网页聊天室/图片/用户.png:
-    newFile: !uuid '9ca05c843d428c130d5922029d8608128edf047c'
-    oldFile: null
-  /网页聊天室/图片/用户2.png:
-    newFile: !uuid '6756e724748677de5a2e58e87e9d8b0f29789ab7'
-    oldFile: null
-  /网页聊天室/图片/网页微信.png:
-    newFile: !uuid '84e002a5bd16f4cfd62e4804a142bf6d5fc819bc'
-    oldFile: null
-  /网页聊天室/图片/网页微信2.png:
-    newFile: !uuid '0be4069d2adc16bb988125011d8729ac73130b4a'
-    oldFile: null
-  /网页聊天室/图片/网页微信3.png:
-    newFile: !uuid 'db3c7066bd442e52b89809116216a24fea1e6fad'
-    oldFile: null
-  /网页聊天室/板书:
-    newFile: !uuid '354d44274ee81709851d2bbdf18f6a6eee4e57e7'
-    oldFile: null
-  /网页聊天室/板书/网页聊天室1-4.png:
-    newFile: !uuid 'd6c8ed947fdee684dd2a9a2ca1be4182bf60ad74'
-    oldFile: null
-  /网页聊天室/板书/网页聊天室102.png:
-    newFile: !uuid 'c31a6196869976cb36f4804ecb69001ab84fc36e'
-    oldFile: null
-  /网页聊天室/板书/网页聊天室103.png:
-    newFile: !uuid '15e00d2ca27b130b6e8036e1625bd0dc0360e323'
-    oldFile: null
-  /网页聊天室/板书/网页聊天室104.png:
-    newFile: !uuid '8d0ff75720aa131cdb287fba822543a6eea5f927'
-    oldFile: null
-  /网页聊天室/板书/网页聊天室18-33.png:
-    newFile: !uuid '8ae615c7d4e03e042e33aec524cbf5b58fcdfbbd'
-    oldFile: null
-  /网页聊天室/板书/网页聊天室34-41.png:
-    newFile: !uuid '510b0b54cf8fec848d6e3912d5c626aa3913e88d'
-    oldFile: null
-  /网页聊天室/板书/网页聊天室35-52.png:
-    newFile: !uuid '6c0f01920796b5ddc68bc76ece4add73fa51de81'
-    oldFile: null
-  /网页聊天室/板书/网页聊天室5-17.png:
-    newFile: !uuid '9b1c473186f011babe800b7c4a6249e29e472f59'
-    oldFile: null
-  /网页聊天室/板书/网页聊天室53-63.png:
-    newFile: !uuid 'b9654140f3c518980676932071b258545966d595'
-    oldFile: null
-  /网页聊天室/板书/网页聊天室64-72.png:
-    newFile: !uuid '9f12031fd8c79c7f740cf627e10e8eaa87a7761a'
-    oldFile: null
-  /网页聊天室/板书/网页聊天室73-77.png:
-    newFile: !uuid '613905c7fc82d6cf98b262ddea9e978d2aed0e7b'
-    oldFile: null
-  /网页聊天室/板书/网页聊天室78-81.png:
-    newFile: !uuid '27e5092ee4c7f2cadafa7f0564471e65566ef2d0'
-    oldFile: null
-  /网页聊天室/板书/网页聊天室82-86.png:
-    newFile: !uuid 'a2642827a22424239f75321af1a0dea3d62f3409'
-    oldFile: null
-  /网页聊天室/板书/网页聊天室87-96.png:
-    newFile: !uuid '9fc433ff7358dfa5f771d05370193aa431ea3a3d'
-    oldFile: null
-  /网页聊天室/板书/网页聊天室97-101.png:
-    newFile: !uuid '1ce806fd9d11e4fd347f556ebe61781fa1b1aa5a'
-    oldFile: null
-gitCommitId: !uuid 'f671f8f158e16fca38217ac39acc10b30d70b535'
+gitCommitId: !uuid '9ec002a5045860d4bdc44fb3af0135df7bdcfc32'
 renames: {
   }
-revisionId: 5
+revisionId: 6
