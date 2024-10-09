@@ -131,7 +131,7 @@ public class Router {
     // aaa.#.ccc            aaa.aaa.bbb.ccc     true
     // #.ccc                ccc                 true
     // #.ccc                aaa.bbb.ccc         true
-    private boolean routeTopic(Binding binding, Message message) {
+    private boolean routeTopicOld(Binding binding, Message message) {
         // 先把这两个 key 进行切分
         String[] bindingTokens = binding.getBindingKey().split("\\.");
         String[] routingTokens = message.getRoutingKey().split("\\.");
@@ -187,5 +187,132 @@ public class Router {
             }
         }
         return -1;
+    }
+
+    // 通过 DP 的方式重新实现这个方法. 实现思路参考 "动态规划精品课" 里的 "44.两个数组的 dp 问题_通配符匹配_Java"
+    private boolean routeTopic(Binding binding, Message message) {
+        // 按照 . 来切分 binding key 和 routing key
+
+        // 无通配符
+        String[] routingTokens = message.getRoutingKey().split("\\.");
+        // 有通配符
+        String[] bindingTokens = binding.getBindingKey().split("\\.");
+        int m = routingTokens.length;
+        int n = bindingTokens.length;
+
+        // 1. 初始化 dp 表. 由于要考虑空串, dp 表的长和宽都要 + 1
+        // dp[i][j] 表示的含义是 bindingTokens 中的 [0, j] 能否和 routingTokens 中的 [0, i] 匹配.
+        boolean[][] dp = new boolean[m + 1][n + 1];
+        // 空的 bindingKey 和 空的 routingKey 可以匹配
+        dp[0][0] = true;
+        // 如果 routingKey 为空, bindingKey 只有连续为 # 的时候, 才能匹配.
+        for (int j = 1; j <= n; j++) {
+            if (bindingTokens[j - 1].equals("#")) {
+                dp[0][j] = true;
+            } else {
+                break;
+            }
+        }
+        // 2. 遍历所有情况
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (bindingTokens[j - 1].equals("#")) {
+                    // 这块的状态转移方程推导过程很复杂. 参考算法视频讲解
+                    dp[i][j] = dp[i - 1][j] || dp[i][j - 1];
+                } else if (bindingTokens[j - 1].equals("*")) {
+                    // 如果 bindingTokens j 位置为 *, 那么 bindingTokens j - 1 位置和 routingKey i - 1 位置匹配即可.
+                    dp[i][j] = dp[i - 1][j - 1];
+                } else {
+                    // 如果 bindingTokens j 位置为普通字符串, 那么要求 bindingTokens j - 1 位置 和 routingKey i - 1
+                    // 位置匹配
+                    // 并且 bindingTokens j 位置和 routingKey i 位置相同, 才认为是匹配
+                    if (bindingTokens[j - 1].equals(routingTokens[i - 1])) {
+                        dp[i][j] = dp[i - 1][j - 1];
+                    } else {
+                        dp[i][j] = false;
+                    }
+                }
+            }
+        }
+        // 3. 处理返回值, 直接返回 dp 表的最后一个位置
+        return dp[m][n];
+    }
+
+    // 需要考虑通配符, 复杂一些
+    public boolean checkBindingKeyValid(String bindingKey) {
+        // 1. 允许是空字符串
+        // 2. 数字字母下划线构成
+        // 3. 可以包含通配符
+        // 4. # 不能连续出现.
+        // 5. # 和 * 不能相邻
+        if (bindingKey.length() == 0) {
+            return true;
+        }
+        // 先判定基础构成
+        for (int i = 0; i < bindingKey.length(); i++) {
+            char ch = bindingKey.charAt(i);
+            if (ch >= 'A' && ch <= 'Z') {
+                continue;
+            }
+            if (ch >= 'a' && ch <= 'z') {
+                continue;
+            }
+            if (ch >= '0' && ch <= '9') {
+                continue;
+            }
+            if (ch == '.' || ch == '_' || ch == '*' || ch == '#') {
+                continue;
+            }
+            return false;
+        }
+        // 再判定每个词的情况
+        // 比如 aaa.a*a 这种应该视为非法.
+        String[] words = bindingKey.split("\\.");
+        for (String word : words) {
+            if (word.length() > 1 && (word.contains("*") || word.contains("#"))) {
+                return false;
+            }
+        }
+        // 再判定相邻词的情况
+        for (int i = 0; i < words.length - 1; i++) {
+            // 连续两个 ##
+            if (words[i].equals("#") && words[i + 1].equals("#")) {
+                return false;
+            }
+            // # 连着 *
+            if (words[i].equals("#") && words[i + 1].equals("*")) {
+                return false;
+            }
+            // * 连着 #
+            if (words[i].equals("*") && words[i + 1].equals("#")) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    // 不包含通配符, 规则更简单.
+    public boolean checkRoutingKeyValid(String routingKey) {
+        if (routingKey.length() == 0) {
+            return true;
+        }
+        // 数字字母下划线构成
+        for (int i = 0; i < routingKey.length(); i++) {
+            char ch = routingKey.charAt(i);
+            if (ch >= 'A' && ch <= 'Z') {
+                continue;
+            }
+            if (ch >= 'a' && ch <= 'z') {
+                continue;
+            }
+            if (ch >= '0' && ch <= '9') {
+                continue;
+            }
+            if (ch == '_' || ch == '.') {
+                continue;
+            }
+            return false;
+        }
+        return true;
     }
 }
