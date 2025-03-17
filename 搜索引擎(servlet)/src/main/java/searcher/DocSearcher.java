@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
 // 通过这个类, 来完成整个的搜索过程
 public class DocSearcher {
     // 停用词文件的路径
-    private static final String STOP_WORD_PATH = "/home/tz/install/doc_searcher_index/stop_word.txt";
+    private static final String STOP_WORD_PATH = "D:\\java_doc_searcher\\stop_word.txt";
 
     // 使用这个 HashSet 来保存停用词
     private HashSet<String> stopWords = new HashSet<>();
