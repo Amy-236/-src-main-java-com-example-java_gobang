@@ -2,37 +2,31 @@
 branches: {
   }
 fileChange:
-  /模拟实现消息队列:
-    newFile: !uuid '38d79996b76e41f93a484311bfa3fdbc1d503b64'
-    oldFile: !uuid '66c02fbf0bdd8b060cd14b7a506e2e0c06992fe6'
-  /模拟实现消息队列/src:
-    newFile: !uuid '61c166568966bb235a85c86a0cb7e6c92adee752'
-    oldFile: !uuid 'e173b4bf018df48347813de7828457850d767ce1'
-  /模拟实现消息队列/src/main:
-    newFile: !uuid '86e4f3261d167e146040e959c96008a672605fdf'
-    oldFile: !uuid 'dc09b0adb8279da4900d8750a90da87ac35a4cfd'
-  /模拟实现消息队列/src/main/java:
-    newFile: !uuid 'f727720bfd2b3c2904593e677877ef1b7d402158'
-    oldFile: !uuid 'a22f0ce6d913e0a9596f558a7ab9a44786ca17c8'
-  /模拟实现消息队列/src/main/java/com:
-    newFile: !uuid '9ad5ce6f19f5597afad893c2e0402b7d7509c26d'
-    oldFile: !uuid '424edab39bbedacf095d2e1c970c52899f6dc37b'
-  /模拟实现消息队列/src/main/java/com/example:
-    newFile: !uuid '88ac3baf498cde45bcd13a1a58aa88607d62aa70'
-    oldFile: !uuid '047a8f49649b8f28a1f20f5bf21ebb9de2e97776'
-  /模拟实现消息队列/src/main/java/com/example/mq:
-    newFile: !uuid '6731d42e17ea2cb8b37d90cd9c8889bca9ac98a3'
-    oldFile: !uuid 'f0552644ebc07d889fb2d4aa0dd7929df27bd5be'
-  /模拟实现消息队列/src/main/java/com/example/mq/mqserver:
-    newFile: !uuid '0c3a1c25b7917aa59223736a41d4b24d1429d4bb'
-    oldFile: !uuid '9ac59911e6c5381b9a743c49840d345c1cb298d3'
-  /模拟实现消息队列/src/main/java/com/example/mq/mqserver/core:
-    newFile: !uuid 'b66b3ca1579c2e31b72476059337d7815fb80857'
-    oldFile: !uuid 'b90c165f765932274a537135fef459b9cc217979'
-  /模拟实现消息队列/src/main/java/com/example/mq/mqserver/core/Router.java:
-    newFile: !uuid 'b086a715185873e75e22992bda502b9d130960dc'
-    oldFile: !uuid '1f4112a82fc6d59eb655f41c5f1e3c07fb2e60d8'
-gitCommitId: !uuid '6076afeaa1dbea6fc75bdc3418fb434141cea64d'
+  /搜索引擎(servlet):
+    newFile: !uuid 'b4377982a5b37bdf5fb15b34afa453c8e86ee2ea'
+    oldFile: !uuid 'fbc76855bb68e59b64a88a32c7653776fbd8f995'
+  /搜索引擎(servlet)/src:
+    newFile: !uuid '97984eb6604f86af1a9bccd2d7651ee93f9f8009'
+    oldFile: !uuid '34357a015ac7edc214d5375d14649ffc61be0784'
+  /搜索引擎(servlet)/src/main:
+    newFile: !uuid 'aa7be6f0db6b887058db1307f728df2038856aa0'
+    oldFile: !uuid 'b583ca5c9501ed0c32361c0728224533d502dbe8'
+  /搜索引擎(servlet)/src/main/java:
+    newFile: !uuid 'b6f7db07a2de6b23df56487913f27c8b2f4983f1'
+    oldFile: !uuid 'c85a6db55be124913f6841ee2debe5320790573f'
+  /搜索引擎(servlet)/src/main/java/searcher:
+    newFile: !uuid 'bf609f8e0a39bf73d7e2e2e92cd3a7e9a5c01c2e'
+    oldFile: !uuid '0176db865cceaa2fa04b83f512968b778eb54a08'
+  /搜索引擎(servlet)/src/main/java/searcher/DocSearcher.java:
+    newFile: !uuid 'a3607a7867abd159d958eaa63343485410590ee3'
+    oldFile: !uuid 'ae03fea23ee0a0f56b7faefb454aaf18eb6400e9'
+  /搜索引擎(servlet)/src/main/java/searcher/Index.java:
+    newFile: !uuid 'e63d19ad3c804f30d615836ae3a801983558c2fe'
+    oldFile: !uuid 'b5b500fc0c943942a25111fba1469e86cab9c45b'
+  /搜索引擎(servlet)/src/main/java/searcher/Parser.java:
+    newFile: !uuid '7df1e4125d1b243cbc02054070c2895fecfb2557'
+    oldFile: !uuid '29b2a579362a06301977b870ec6fe3bffae7707b'
+gitCommitId: !uuid 'a2f7a659bebd7d11420443790d94ea3ff1e41b40'
 renames: {
   }
-revisionId: 16
+revisionId: 17
