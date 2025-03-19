@@ -208,6 +208,7 @@ function initGame() {
 
             // 增加一个按钮, 让玩家点击之后, 再回到游戏大厅~
             let backBtn = document.createElement('button');
+            backBtn.className = 'return-btn';
             backBtn.innerHTML = '回到大厅';
             backBtn.onclick = function() {
                 location.replace('/game_hall.html');
