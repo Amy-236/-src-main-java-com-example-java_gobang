@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 public class Parser {
     // 先指定一个加载文档的路径
-    private static final String INPUT_PATH = "D:\\java_doc_searcher\\jdk-8u441-docs-all\\docs\\api\\";
+    private static final String INPUT_PATH = "C:\\Users\\1\\Desktop\\myData\\java_doc_searcher\\jdk-8u441-docs-all\\docs\\api";
     // 创建一个 searcher.Index 实例
     private Index index = new Index();
 

@@ -14,7 +14,7 @@ import java.util.Map;
 
 // 通过这个类在内存中来构造出索引结构
 public class Index {
-    private static final String INDEX_PATH = "D:\\java_doc_searcher\\jdk-8u441-docs-all\\docs\\api\\";
+    private static final String INDEX_PATH = "C:\\Users\\1\\Desktop\\myData\\java_doc_searcher\\jdk-8u441-docs-all\\docs\\api";
     private ObjectMapper objectMapper = new ObjectMapper();
 
     // 使用数组下标表示 docId
