@@ -168,6 +168,7 @@
     height: 40px;
     line-height: 40px;
     font-size: 20px;
+    margin-bottom: 2px;
 }
 
 /* 应用了这个 css 类的元素就会被自动隐藏 */
@@ -216,7 +217,8 @@
 
 .main .right .message-show .message .box {
     /* box 凸显出左右这样的效果, 宽度不能是 100% */
-    width: 500px;
+    /* width: 500px; */
+    width: auto;
 }
 
 .main .right .message-show .message .box h4 {
@@ -228,7 +230,8 @@
 }
 
 .main .right .message-show .message .box p {
-    padding: 20px;
+    /* padding: 20px; */
+    padding: 10px 20px;
     border-radius: 10px;
 }
 

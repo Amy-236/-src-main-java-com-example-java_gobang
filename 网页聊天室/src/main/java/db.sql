@@ -9,10 +9,10 @@ create table user (
     password varchar(20)
 );
 
-insert into user values(1, 'zhangsan', '123');
-insert into user values(2, 'lisi', '123');
-insert into user values(3, 'wangwu', '123');
-insert into user values(4, 'zhaoliu', '123');
+insert into user values(1, '张三', '123');
+insert into user values(2, '李四', '123');
+insert into user values(3, '王五', '123');
+insert into user values(4, '赵六', '123');
 
 -- 创建好友表
 drop table if exists friend;
