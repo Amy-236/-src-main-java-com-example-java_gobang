@@ -3,30 +3,30 @@ branches: {
   }
 fileChange:
   /搜索引擎(servlet):
-    newFile: !uuid 'b4377982a5b37bdf5fb15b34afa453c8e86ee2ea'
-    oldFile: !uuid 'fbc76855bb68e59b64a88a32c7653776fbd8f995'
+    newFile: !uuid 'f3dd535711e22caa2ebf824c699e99c841ea963d'
+    oldFile: !uuid 'b4377982a5b37bdf5fb15b34afa453c8e86ee2ea'
   /搜索引擎(servlet)/src:
-    newFile: !uuid '97984eb6604f86af1a9bccd2d7651ee93f9f8009'
-    oldFile: !uuid '34357a015ac7edc214d5375d14649ffc61be0784'
+    newFile: !uuid '10cbd82e5b2021900beeae3b88745aa1580a2ebc'
+    oldFile: !uuid '97984eb6604f86af1a9bccd2d7651ee93f9f8009'
   /搜索引擎(servlet)/src/main:
-    newFile: !uuid 'aa7be6f0db6b887058db1307f728df2038856aa0'
-    oldFile: !uuid 'b583ca5c9501ed0c32361c0728224533d502dbe8'
+    newFile: !uuid '1d388ed35a8cee57fe1f3fee2980a7d5597cfa4b'
+    oldFile: !uuid 'aa7be6f0db6b887058db1307f728df2038856aa0'
   /搜索引擎(servlet)/src/main/java:
-    newFile: !uuid 'b6f7db07a2de6b23df56487913f27c8b2f4983f1'
-    oldFile: !uuid 'c85a6db55be124913f6841ee2debe5320790573f'
+    newFile: !uuid '0ad6aa9aa2e27cb25c09aea7af2e31c9c9282a6d'
+    oldFile: !uuid 'b6f7db07a2de6b23df56487913f27c8b2f4983f1'
   /搜索引擎(servlet)/src/main/java/searcher:
-    newFile: !uuid 'bf609f8e0a39bf73d7e2e2e92cd3a7e9a5c01c2e'
-    oldFile: !uuid '0176db865cceaa2fa04b83f512968b778eb54a08'
+    newFile: !uuid '4c1e4852e2bbb94a50e5fcf41537eeacea95d8e4'
+    oldFile: !uuid 'bf609f8e0a39bf73d7e2e2e92cd3a7e9a5c01c2e'
   /搜索引擎(servlet)/src/main/java/searcher/DocSearcher.java:
-    newFile: !uuid 'a3607a7867abd159d958eaa63343485410590ee3'
-    oldFile: !uuid 'ae03fea23ee0a0f56b7faefb454aaf18eb6400e9'
+    newFile: !uuid '3c6dabc4fcd532197abc3edf81eae3dd65b29d33'
+    oldFile: !uuid 'a3607a7867abd159d958eaa63343485410590ee3'
   /搜索引擎(servlet)/src/main/java/searcher/Index.java:
-    newFile: !uuid 'e63d19ad3c804f30d615836ae3a801983558c2fe'
-    oldFile: !uuid 'b5b500fc0c943942a25111fba1469e86cab9c45b'
+    newFile: !uuid '3ebf852b4d4c7417685cbc6d2e496f7e44a586e9'
+    oldFile: !uuid 'e63d19ad3c804f30d615836ae3a801983558c2fe'
   /搜索引擎(servlet)/src/main/java/searcher/Parser.java:
-    newFile: !uuid '7df1e4125d1b243cbc02054070c2895fecfb2557'
-    oldFile: !uuid '29b2a579362a06301977b870ec6fe3bffae7707b'
-gitCommitId: !uuid 'a2f7a659bebd7d11420443790d94ea3ff1e41b40'
+    newFile: !uuid 'bfeed416dd4dbe8e6bfd38c7a79c40b1ed7e1905'
+    oldFile: !uuid '7df1e4125d1b243cbc02054070c2895fecfb2557'
+gitCommitId: !uuid '4a7c674210c5ad7c8f9ffe7997dc6af3f986031e'
 renames: {
   }
-revisionId: 17
+revisionId: 18
