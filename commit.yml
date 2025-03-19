@@ -3,18 +3,33 @@ branches: {
   }
 fileChange:
   /网页五子棋对战:
-    newFile: !uuid '31312840d89d5dd996335b8312923290e0b85595'
-    oldFile: !uuid '3779c38bebe79469f0fb5266ebd6e1a92ec84b2c'
+    newFile: !uuid '5ad193901ce93449c0892c1ba8c9af22487e4109'
+    oldFile: !uuid '31312840d89d5dd996335b8312923290e0b85595'
   /网页五子棋对战/src:
-    newFile: !uuid '35aa6bbba1bc22c2b1ea396d52e5e57ef9de3429'
-    oldFile: !uuid '6ebca70b3a07fa9fadb47ab23e73c0bb8d3b464a'
+    newFile: !uuid 'c27b4596bf6ad29ab553a77b51f0f38c71afbd8d'
+    oldFile: !uuid '35aa6bbba1bc22c2b1ea396d52e5e57ef9de3429'
   /网页五子棋对战/src/main:
-    newFile: !uuid '85d1a2cf355a79ef83bc2c9ee3b7b46df2727ecd'
-    oldFile: !uuid 'cdd569ca99893065d2706998b0f61a411a4f1b19'
-  /网页五子棋对战/src/main/db.sql:
-    newFile: !uuid '0feabe60849b1cf3df736324a9d09c8765e4467e'
-    oldFile: !uuid '39ea291741b7915cd654536dcb9cbc4c3f67fa32'
-gitCommitId: !uuid 'a00f4315e871b3ebc37397d3d23dbc8a6b4fbf5a'
+    newFile: !uuid '41e1e62d36c1b692213c078ebf6df540ac305321'
+    oldFile: !uuid '85d1a2cf355a79ef83bc2c9ee3b7b46df2727ecd'
+  /网页五子棋对战/src/main/resources:
+    newFile: !uuid 'c0be2568150e479c70d69959798c977b99d4b24c'
+    oldFile: !uuid '1094e53bf4b7c085b683807cc4b461af200e37fe'
+  /网页五子棋对战/src/main/resources/static:
+    newFile: !uuid '38d27a24a18479f251ae8cc4af3bcc589e54b8ec'
+    oldFile: !uuid 'f012359acc91168c718a36dfe6764ffb19fa0ac7'
+  /网页五子棋对战/src/main/resources/static/css:
+    newFile: !uuid '45c206f8dab7c6466e20f3e1dde11e3a89953202'
+    oldFile: !uuid '2169c1fa63473e1c3e1ff214cee07269a200516f'
+  /网页五子棋对战/src/main/resources/static/css/game_room.css:
+    newFile: !uuid 'b0837abcd663812cfe1368c8184b4e141f5d4299'
+    oldFile: !uuid '16a4cb6b9b6b2d90512f288a2dd64ed7b997d72d'
+  /网页五子棋对战/src/main/resources/static/js:
+    newFile: !uuid 'adaccfc2137cf24b460a36aa644bc7f681b6242f'
+    oldFile: !uuid 'c07c822bf8f32d61d682a980f7419d4ec4c6eb60'
+  /网页五子棋对战/src/main/resources/static/js/script.js:
+    newFile: !uuid 'fefcb20e077868273b4eed9b0f56af05f007fe37'
+    oldFile: !uuid '0d35f21456297e14c21eb083a47e33e87128c6c4'
+gitCommitId: !uuid '582cfe877d79026f7807a893709d4f3abd821094'
 renames: {
   }
-revisionId: 20
+revisionId: 21
