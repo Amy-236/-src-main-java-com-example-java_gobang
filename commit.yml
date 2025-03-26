@@ -3,33 +3,18 @@ branches: {
   }
 fileChange:
   /网页五子棋对战:
-    newFile: !uuid '5ad193901ce93449c0892c1ba8c9af22487e4109'
-    oldFile: !uuid '31312840d89d5dd996335b8312923290e0b85595'
-  /网页五子棋对战/src:
-    newFile: !uuid 'c27b4596bf6ad29ab553a77b51f0f38c71afbd8d'
-    oldFile: !uuid '35aa6bbba1bc22c2b1ea396d52e5e57ef9de3429'
-  /网页五子棋对战/src/main:
-    newFile: !uuid '41e1e62d36c1b692213c078ebf6df540ac305321'
-    oldFile: !uuid '85d1a2cf355a79ef83bc2c9ee3b7b46df2727ecd'
-  /网页五子棋对战/src/main/resources:
-    newFile: !uuid 'c0be2568150e479c70d69959798c977b99d4b24c'
-    oldFile: !uuid '1094e53bf4b7c085b683807cc4b461af200e37fe'
-  /网页五子棋对战/src/main/resources/static:
-    newFile: !uuid '38d27a24a18479f251ae8cc4af3bcc589e54b8ec'
-    oldFile: !uuid 'f012359acc91168c718a36dfe6764ffb19fa0ac7'
-  /网页五子棋对战/src/main/resources/static/css:
-    newFile: !uuid '45c206f8dab7c6466e20f3e1dde11e3a89953202'
-    oldFile: !uuid '2169c1fa63473e1c3e1ff214cee07269a200516f'
-  /网页五子棋对战/src/main/resources/static/css/game_room.css:
-    newFile: !uuid 'b0837abcd663812cfe1368c8184b4e141f5d4299'
-    oldFile: !uuid '16a4cb6b9b6b2d90512f288a2dd64ed7b997d72d'
-  /网页五子棋对战/src/main/resources/static/js:
-    newFile: !uuid 'adaccfc2137cf24b460a36aa644bc7f681b6242f'
-    oldFile: !uuid 'c07c822bf8f32d61d682a980f7419d4ec4c6eb60'
-  /网页五子棋对战/src/main/resources/static/js/script.js:
-    newFile: !uuid 'fefcb20e077868273b4eed9b0f56af05f007fe37'
-    oldFile: !uuid '0d35f21456297e14c21eb083a47e33e87128c6c4'
-gitCommitId: !uuid '582cfe877d79026f7807a893709d4f3abd821094'
+    newFile: !uuid '770a3c5eb9b4f3a91ca718b973287d8b435c26c4'
+    oldFile: !uuid '5ad193901ce93449c0892c1ba8c9af22487e4109'
+  /网页五子棋对战/板书:
+    newFile: !uuid 'a434517e9c387191deee9789e24cdf4522a594ac'
+    oldFile: !uuid '018c69d3963ef6bc254feee5335e8ff11fbd7289'
+  /网页五子棋对战/板书/网页五子棋47-60.png:
+    newFile: !uuid '44963b86834d43945dd6928ebe72078c15187468'
+    oldFile: !uuid '1a5e1eaf7d04d293557720630a9c974d19ded0a0'
+  /网页五子棋对战/板书/网页五子棋61-71.png:
+    newFile: !uuid 'f26fc98d86515dd0777d72a4bfa3035c06db58e3'
+    oldFile: !uuid '8910aee7f177b8116b0bc6ddf555d44a0ee5081e'
+gitCommitId: !uuid '14cf42cb7076ec46d3a19a1921336e9b1109bc84'
 renames: {
   }
-revisionId: 21
+revisionId: 22
