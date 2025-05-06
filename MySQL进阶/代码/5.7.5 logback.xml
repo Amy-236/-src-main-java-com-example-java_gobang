@@ -1,0 +1,22 @@
+<configuration>
+    <!-- 日志输入到文件 -->
+    <appender name="SHARDING_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 日志路径 -->
+        <file>./logs/shardingsphere.log</file>
+        <encoder>
+            <!-- 日志输入的样式 -->
+            <pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>shardingsphere.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>100MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+    </appender>
+ 
+    <root level="INFO">
+        <appender-ref ref="SHARDING_FILE" />
+    </root>
+ 
+</configuration>
