@@ -2,103 +2,373 @@
 branches: {
   }
 fileChange:
-  /MySQL进阶:
-    newFile: !uuid 'a0010dd5bdf1150121a0f1f0deb4530e46404d9e'
+  /MySQL高阶:
+    newFile: !uuid '42b3e53918d8d1acbe5cbe43108c1c8a18ae6ce1'
     oldFile: null
-  /MySQL进阶/0.0 思维导图.png:
-    newFile: !uuid '44b9ff839f3673fe565a37a8c78f2d804d93c8c0'
+  /MySQL高阶/000my.cnf:
+    newFile: !uuid '633f573f7fa0255c8bbcb6bd34d29a8c881b274a'
     oldFile: null
-  /MySQL进阶/1.1 - 1.3 初识存储过程-存储过程 语法.png:
-    newFile: !uuid 'e068d0158795f420a4e33e644942cfe228e56548'
+  /MySQL高阶/1 MySQL的安装-Windows.png:
+    newFile: !uuid '8a673414896310805073b24d2082b13c5e76312c'
     oldFile: null
-  /MySQL进阶/1.4 变量 - 1.5 SQL编程语法.png:
-    newFile: !uuid 'f6cd80f3a9ab9f72ad37433fab8871b15223e977'
+  /MySQL高阶/10 mysqlcheck - 表维护程序.png:
+    newFile: !uuid '4b0810b4bc4cfa7f6c90ea03483eb4a3bce81976'
     oldFile: null
-  /MySQL进阶/1.6 触发器.png:
-    newFile: !uuid 'f697d71365373f55727e2e007ae6e96d31051cdc'
+  /MySQL高阶/100 重做日志还有哪些主要的配置项.png:
+    newFile: !uuid '7ac9e6db0829ce2306b74b35452690844fce645b'
     oldFile: null
-  /MySQL进阶/2 数据库设计实践.png:
-    newFile: !uuid '37dff65f4b873b076ecd18dd583bfabc42dec2d4'
+  /MySQL高阶/101 如何根据RedoLog进行崩溃恢复.png:
+    newFile: !uuid '2186257e6dc64dee581a890c1b1ce9473bed7fe2'
     oldFile: null
-  /MySQL进阶/3. SQL调优01.png:
-    newFile: !uuid '333f896d115cb2616fd9693968d1d3d119f3b24c'
+  /MySQL高阶/102 innodb附录-通用表空间.png:
+    newFile: !uuid '15009e34fb12da8244f1e203ed0b0caf64022fef'
     oldFile: null
-  /MySQL进阶/3. SQL调优02.png:
-    newFile: !uuid 'fa7442a9b44c1959d1d722c45d03ba6524ae3e76'
+  /MySQL高阶/103 innodb附录-临时表空间+临时表.png:
+    newFile: !uuid '9b760a9bb7586b0523e866aa13269d4c243709f6'
     oldFile: null
-  /MySQL进阶/4. demo.sql:
-    newFile: !uuid 'd0dae09af65bb23f28f23947f0698fc267b31415'
+  /MySQL高阶/104 innodb附录-临时表都有哪些设置+临时表中的数据存在哪里.png:
+    newFile: !uuid 'c8c076547c1f12bc63dac2e5f973d05697b0faff'
     oldFile: null
-  /MySQL进阶/4. 数据库备份与恢复01.png:
-    newFile: !uuid '99a1927bad816c16f411abbe2812e6b34da2e152'
+  /MySQL高阶/105 106 InnoDB存储引擎小结_思维导图.png:
+    newFile: !uuid '9a6c95536d3a30277dfb16ef43066459a032dffb'
     oldFile: null
-  /MySQL进阶/4. 数据库备份与恢复02.png:
-    newFile: !uuid 'b0ab3db5f74b6e80bb000d11df21453e8ad7b6af'
+  /MySQL高阶/107 什么是事务.png:
+    newFile: !uuid '1b2c72e10c3a3267e46453ffef26c09dba4ad6ec'
     oldFile: null
-  /MySQL进阶/5. MySQL集群架构与实践01.png:
-    newFile: !uuid '1680149c536a6657c71ffc1405485e310a80c01c'
+  /MySQL高阶/108 为什么使用事务+怎么使用事务.png:
+    newFile: !uuid 'e428ba5f3390c4af051523e03648639a27874484'
     oldFile: null
-  /MySQL进阶/5. MySQL集群架构与实践02.png:
-    newFile: !uuid '9fbe6bf3feb1745712dd05e8cc852237c3ef9ce6'
+  /MySQL高阶/109 InnoDB和ACID模型.png:
+    newFile: !uuid '1798f975bf4450e8a40e8a5b8407c7c4fefb7ef0'
     oldFile: null
-  /MySQL进阶/代码:
-    newFile: !uuid 'f7df7fe2a8fe9a9d6f05d2f43d6e71294d722a40'
+  /MySQL高阶/11 Mysqldump - 数据库备份程序.png:
+    newFile: !uuid '62228fd5046d6198c053ebb29a59d29a2965cc0b'
     oldFile: null
-  /MySQL进阶/代码/1. lesson01_tables.sql:
-    newFile: !uuid '3a9b9de69e6bfb5e0388044798e4be4edce24344'
+  /MySQL高阶/110 如何实现原子性和持久性.png:
+    newFile: !uuid '6f17447e59827dfda2abdc4226c9e6958ac2f5c4'
     oldFile: null
-  /MySQL进阶/代码/1.4 局部变量.sql:
-    newFile: !uuid 'a80a34f01e95f0baffb5c2e2d788c2e0db7efaaa'
+  /MySQL高阶/111 事务的隔离性和隔离级别.png:
+    newFile: !uuid '551c784e5954b59b870047a8e985f8a0217f01f6'
     oldFile: null
-  /MySQL进阶/代码/1.5 SQL编程.sql:
-    newFile: !uuid '0bf088f56721f499152b6a4a5b2322efb2ba8343'
+  /MySQL高阶/112 锁信息+共享锁和独占锁+意向锁.png:
+    newFile: !uuid '8f5ef989ed0897a89a5dbcbc568d191327573c70'
     oldFile: null
-  /MySQL进阶/代码/1.6 触发器.sql:
-    newFile: !uuid '714fa02d3a8964690455110830b18b53e456630d'
+  /MySQL高阶/113 索引记录锁+间隙锁+临键锁.png:
+    newFile: !uuid 'bf1bdb22a0976b6732045dffad38dc1d0fd8aaf0'
     oldFile: null
-  /MySQL进阶/代码/2 比特租房 组合图.png:
-    newFile: !uuid '98b088f2abbb0701eb49140efe08ff07bd46d874'
+  /MySQL高阶/114 插入意向锁+AUTO-INC锁.png:
+    newFile: !uuid '3ea3cbe34b000f4deb8101645d9ce01d16eb7514'
     oldFile: null
-  /MySQL进阶/代码/3 比特租房网E-R图.drawio:
-    newFile: !uuid '6d127d95dd6d0a38e345d1da58abd24e7a2c052b'
+  /MySQL高阶/115 死锁及触发示例.png:
+    newFile: !uuid '9ee6f4f923d4fbcae6fe12d8c023edfc48134ad8'
     oldFile: null
-  /MySQL进阶/代码/3.10 比特租房网E-R图.drawio.png:
-    newFile: !uuid '25d396cda2333dc7024aaf3bf004c367fd27bd29'
+  /MySQL高阶/116 死锁产生的条件+检测+如何避免.png:
+    newFile: !uuid '81d659141a0ef7ba6dd4c928792b1b526dcc2a84'
     oldFile: null
-  /MySQL进阶/代码/3.14 逆向导出EER图.png:
-    newFile: !uuid '6594d9421e0286580ed40d5f6b2c643f4cdd70e7'
+  /MySQL高阶/117 脏读+不可重复读+幻读.png:
+    newFile: !uuid '6c50ae31346f3f60c4a423a32850b2e0aab5b81e'
     oldFile: null
-  /MySQL进阶/代码/4.1 构建测试数据.sql:
-    newFile: !uuid '4a95b41e358c3590bb0c052b4a5f073a91c8fdb7'
+  /MySQL高阶/118 多版本并发控制-MVCC.png:
+    newFile: !uuid 'df9be5554212c14482973afd3eeea7be043323ac'
     oldFile: null
-  /MySQL进阶/代码/5.7.10 config-sharding.yaml:
-    newFile: !uuid '95204753d96a9c99bc62786cd532845287023f47'
+  /MySQL高阶/119 查看并设置隔离级别.png:
+    newFile: !uuid '2873b86c7a3380a457cce75b2d29f3844c5ebda4'
     oldFile: null
-  /MySQL进阶/代码/5.7.4 config-readwrite-splitting.yaml:
-    newFile: !uuid '965cdd59c87762316c09f52e8ca2b80a24ba8306'
+  /MySQL高阶/12 Mysqladmin - 服务器管理程序.png:
+    newFile: !uuid 'badd4805be2c7e9c0450db7eb9a53d663ac8b73e'
     oldFile: null
-  /MySQL进阶/代码/5.7.5 logback.xml:
-    newFile: !uuid '490af7b33057668cfcfdb475499924dd8be52390'
+  /MySQL高阶/120 不隔离级别的实现方式与问题重现.png:
+    newFile: !uuid '5aa14e15ff891a4ea4a291813fd71a527ef493cb'
     oldFile: null
-  /MySQL进阶/代码/5.7.6 config-sharding.yaml:
-    newFile: !uuid 'cd96a9cf2d55ca49712e17f7f919245e4f32d87a'
+  /MySQL高阶/13 mysqlshow - 显示数据库、表和列信息.png:
+    newFile: !uuid 'aa1ef16e4853542ebd05734132c4235ed6be73c0'
     oldFile: null
-  /MySQL进阶/代码/加餐 E-R图.drawio:
-    newFile: !uuid '5cb05dcab15c69d22ce5cb78ab278e877635d5c5'
+  /MySQL高阶/14 mysqldumpslow - 总结慢查询日志文件.png:
+    newFile: !uuid 'b87a4c7081356ed2fc021ef59fdf882b8f821c04'
     oldFile: null
-  /MySQL进阶/代码/加餐 逆向practice_db.png:
-    newFile: !uuid 'a46af6e878f2ff2a71075d0c676cb2e0b8f1844c'
+  /MySQL高阶/15 mysqlbinlog - 处理二进制日志文件.png:
+    newFile: !uuid '4b0463213c3c89ecf1bea02d6953bbe8bfbb0dd9'
     oldFile: null
-  /MySQL进阶/代码/加餐practice_db.sql:
-    newFile: !uuid '71d35e8dd4d6bec917eb9372ba1f8dc9e1674ca1'
+  /MySQL高阶/16 mysqlslap - 负载仿真客户端.png:
+    newFile: !uuid '183245df11fda6017eac409fba18b496001fd655'
     oldFile: null
-  /MySQL进阶/加餐 三大范式&E-R图.png:
-    newFile: !uuid 'fb3c511ae652d0ecfd50e4e92c767b9a2df14b2b'
+  /MySQL高阶/17 MySQL 服务器简介.png:
+    newFile: !uuid '102a6b7eee6b8d854a1e1ca823ff3a780d745a51'
     oldFile: null
-  /MySQL进阶/加餐 比特租房 组合图.png:
-    newFile: !uuid '792b42ab288530ac6c817b498c9a413786d00272'
+  /MySQL高阶/18 系统变量和选项.png:
+    newFile: !uuid '510ef3d284ad4cd17bda39bb9645adbd685505ef'
     oldFile: null
-gitCommitId: !uuid '63c95145b5127f0eb24ff39e69341a4aabaf91e5'
+  /MySQL高阶/19 使用系统变量.png:
+    newFile: !uuid 'e3359dd9fa276b922f15b04149a0d0141e1df1ee'
+    oldFile: null
+  /MySQL高阶/2 MySQL的安装-CentOS.png:
+    newFile: !uuid 'cd0c4661571d44c3517adfc44988c9bd79a03c6a'
+    oldFile: null
+  /MySQL高阶/20 示例：服务器常用配置.png:
+    newFile: !uuid '2dfc1affb665041732df4ae8df7d0b525fbe797c'
+    oldFile: null
+  /MySQL高阶/21 查看状态变量.png:
+    newFile: !uuid 'b4d1d5dd0e0bb49928dcde43ab9c936792de8aa5'
+    oldFile: null
+  /MySQL高阶/22 MySQL数据目录.png:
+    newFile: !uuid '23e8bbfe79708ca24c80663db48115a10a455889'
+    oldFile: null
+  /MySQL高阶/23 日志简介.png:
+    newFile: !uuid '06c6d554e284a4dd0686f4940c7df87c0222867d'
+    oldFile: null
+  /MySQL高阶/24 一般查询日志和慢查询日志的输出形式.png:
+    newFile: !uuid 'f716f212f79eea023ea963d076509954893dd377'
+    oldFile: null
+  /MySQL高阶/25 一般查询日志.png:
+    newFile: !uuid '48038cf0dde2e4efcba308131f42c72f930363a2'
+    oldFile: null
+  /MySQL高阶/26 慢查询日志.png:
+    newFile: !uuid '0b424fc6a789c4333e52a3f7c6e1a5e925e7b594'
+    oldFile: null
+  /MySQL高阶/27 错误日志.png:
+    newFile: !uuid '8a6a15018658e9b528b6348360c677a6c553b593'
+    oldFile: null
+  /MySQL高阶/28 二进制日志+RedoLog+UndoLog简介.png:
+    newFile: !uuid '560ed0643709b54c534610eb8e1f33229b990f0c'
+    oldFile: null
+  /MySQL高阶/29 服务器日志维护.png:
+    newFile: !uuid 'a52b2c087fa0c3c43f20c644b6b33910bfe2c1eb'
+    oldFile: null
+  /MySQL高阶/3 MySQL的安装-Ubuntu.png:
+    newFile: !uuid '7603a7de48aac40d32404e6f8fa4c463d7257e9e'
+    oldFile: null
+  /MySQL高阶/30 mysql System Schema (mysql系统库).png:
+    newFile: !uuid '7b6b6692c83c5d922aabff071904e4908e052572'
+    oldFile: null
+  /MySQL高阶/31 在一台机器上运行多个MySQL实例.png:
+    newFile: !uuid '4957421b8b215d351376bf2a626d5b1edfd4cf49'
+    oldFile: null
+  /MySQL高阶/32 MySQL架构.png:
+    newFile: !uuid '2daeb4327cdbe7adcf476f197a2a93f9e8d251ff'
+    oldFile: null
+  /MySQL高阶/33 连接层.png:
+    newFile: !uuid '5ef04eaa7b9aa532ade39740b550a73652a19f61'
+    oldFile: null
+  /MySQL高阶/34 服务层.png:
+    newFile: !uuid '322cf90429b3582a01f2d6c43351bc8be7f31767'
+    oldFile: null
+  /MySQL高阶/35 存储引擎简介.png:
+    newFile: !uuid 'b9f71d65c794a36e19fb941c585423b20250f14e'
+    oldFile: null
+  /MySQL高阶/36 InnoDB存储引擎.png:
+    newFile: !uuid '50805decb15d2b40ac172505209e7223ad9f6ce4'
+    oldFile: null
+  /MySQL高阶/37 MyISAM 存储引擎.png:
+    newFile: !uuid '607ed3c98cd73aac1e9ca5078dd12c47de0d6437'
+    oldFile: null
+  /MySQL高阶/38 MEMORY存储引擎.png:
+    newFile: !uuid 'b35892c9c0629831ea4392aa365df51958ab0325'
+    oldFile: null
+  /MySQL高阶/39 CSV存储引擎.png:
+    newFile: !uuid 'cc8b480301622ef13b1836c2f005275100fc9ea4'
+    oldFile: null
+  /MySQL高阶/4 MySQL程序简介.png:
+    newFile: !uuid '7922ca5bf3943e7942d8312fa74d6944fda15388'
+    oldFile: null
+  /MySQL高阶/40 ARCHIVE存储引擎.png:
+    newFile: !uuid '816775a2bde2d23b38df5b828ea3b3d6bdf7f2a9'
+    oldFile: null
+  /MySQL高阶/41 BLACKHOLE存储引擎.png:
+    newFile: !uuid 'e7f8784e43a3921fdb71f686fa06ff512e1f6c92'
+    oldFile: null
+  /MySQL高阶/42 MERGE存储引擎.png:
+    newFile: !uuid '744f756cb62ae275b41fb810897a73ccc8f048f2'
+    oldFile: null
+  /MySQL高阶/43 Federated存储引擎.png:
+    newFile: !uuid 'bf48045e36f32b0ad2e7a1940a994f02f5411cfd'
+    oldFile: null
+  /MySQL高阶/44 其他存储引擎+总结.png:
+    newFile: !uuid 'e31af96725e97eeca612b76c4addcc404cda6af4'
+    oldFile: null
+  /MySQL高阶/45 InnoDB存储引擎-专题目标.png:
+    newFile: !uuid '07eb7164dd531b38b49124ea328cab67f424d4ba'
+    oldFile: null
+  /MySQL高阶/46 InnoDB存储引擎的前世今生.png:
+    newFile: !uuid '6fd30a289075bb8a2e79ff464ae46ebd818717fd'
+    oldFile: null
+  /MySQL高阶/47 MySQL为什么默认使用InnoDB存储引擎.png:
+    newFile: !uuid '02ac1984352c0048d2045da100f2e5fcfa8cda1c'
+    oldFile: null
+  /MySQL高阶/48 InnoDB存储引擎的架构长啥样.png:
+    newFile: !uuid '697d4d05cf58bbd5438487dec4b35a005a38df5a'
+    oldFile: null
+  /MySQL高阶/49 使用InnoDB存储引擎创建的表对应的数据文件在哪里.png:
+    newFile: !uuid 'b99230346f46886b613a1af50378a409157c23f2'
+    oldFile: null
+  /MySQL高阶/5 mysqld - 服务器程序.png:
+    newFile: !uuid '0c43f86191d2d7d3fc59fc4ffd046b1b086fccff'
+    oldFile: null
+  /MySQL高阶/50 什么是表空间文件.png:
+    newFile: !uuid '622376f8753bfa5e4403a9a60031dac657ac23a9'
+    oldFile: null
+  /MySQL高阶/51 用户数据在表空间中是怎么存储的.png:
+    newFile: !uuid 'e3e7fed970c52e967689d59ec50817da0448f714'
+    oldFile: null
+  /MySQL高阶/52 为什么要使用页这个数据管理单元.png:
+    newFile: !uuid '77375c03b5e976f1421853901cf4e48f0a6877f0'
+    oldFile: null
+  /MySQL高阶/53 数据页有哪些基本特性是必须要掌握的.png:
+    newFile: !uuid 'c34069a2afa3688ae521bcc6e7f16808be00edfe'
+    oldFile: null
+  /MySQL高阶/54 查询的数据超过一页的大小怎么提高查询效率.png:
+    newFile: !uuid 'e9619ade0e42818020550d3bf0182e064824081b'
+    oldFile: null
+  /MySQL高阶/55 当表中的数据很少时如何避免空间浪费.png:
+    newFile: !uuid 'ae745d87498ed31a17e76da2a96a0cd682f314e2'
+    oldFile: null
+  /MySQL高阶/56 如果访问的数据跨区了怎么办-区组.png:
+    newFile: !uuid '9d05f64fb155b6c524a19b4b135461688d8db328'
+    oldFile: null
+  /MySQL高阶/57 以上这些数据结构还有优化的空间吗-段.png:
+    newFile: !uuid '5cb4148a1e3d9a92fc898e0326f846306c2a6052'
+    oldFile: null
+  /MySQL高阶/58 页结构回顾.png:
+    newFile: !uuid '3ae27ff4bf8fa125785212e2817775057880aa2d'
+    oldFile: null
+  /MySQL高阶/59 页头和页尾具体包含了哪些信息.png:
+    newFile: !uuid 'eeb12d9f78c8a7b8a0cb5a57796cd114e7ec1a8c'
+    oldFile: null
+  /MySQL高阶/6 mysql - 命令行客户端.png:
+    newFile: !uuid '3376fb794b1af1e28c348fd1bb81cd1dc495f0c7'
+    oldFile: null
+  /MySQL高阶/60 数据行有哪些信息组成.png:
+    newFile: !uuid '4f1026f291d61407044c9f210cb9e96e5fed59ae'
+    oldFile: null
+  /MySQL高阶/61 如何定位它在页中的位置，一条条遍历吗.png:
+    newFile: !uuid 'c22bf22041c8fa1197ed2637b779ec77937cf0b1'
+    oldFile: null
+  /MySQL高阶/62 关于事务、索引这些信息在页中怎么记录+小结.png:
+    newFile: !uuid '7100a21199f24e48e710c3532a5aba3dfde95711'
+    oldFile: null
+  /MySQL高阶/63 InnoDB支持的数据行格式都有哪些.png:
+    newFile: !uuid '792c7989feac29f3bf1867b668543f87273a97d8'
+    oldFile: null
+  /MySQL高阶/64 数据区是怎么存储真实数据的.png:
+    newFile: !uuid 'a32fd7d166184bf1307b8c8067b36fac693f5f4f'
+    oldFile: null
+  /MySQL高阶/65 额外管理信息区 - 头信息.png:
+    newFile: !uuid 'f6bd91faf5a33cf56177cf06a7193b997f318108'
+    oldFile: null
+  /MySQL高阶/66 Null列表有啥作用，列表中的值是什么.png:
+    newFile: !uuid 'be110c08b26d99322c7c12640aa5d6f57d954b02'
+    oldFile: null
+  /MySQL高阶/67 变长字段列表有啥作用，列表中的值是什么.png:
+    newFile: !uuid '55a2425354c8059d84adf22e904b7fd6621a9168'
+    oldFile: null
+  /MySQL高阶/68 其他的行格式与DYNAMIC有什么区别.png:
+    newFile: !uuid '8fa175b9fc65b78ec64b3928d9e5b85cff784990'
+    oldFile: null
+  /MySQL高阶/69 InnoDB内存结构的主要组成部分+为什么需要内存结构.png:
+    newFile: !uuid '9ddbf3df6a05f164c98f1255d7a300cc82cbd45f'
+    oldFile: null
+  /MySQL高阶/7 选项(配置)文件.png:
+    newFile: !uuid 'f9ea9d8165cd346e3916e866e6690f5c2309a000'
+    oldFile: null
+  /MySQL高阶/70 缓冲池的作用+缓冲池是如何组织数据的.png:
+    newFile: !uuid '191e691f735f2664d51f8370441909822e383680'
+    oldFile: null
+  /MySQL高阶/71 缓冲池是如何组织数据的_衍生问题.png:
+    newFile: !uuid 'e1ea9ec0ab5693910733925f694a0e1ca4e02b48'
+    oldFile: null
+  /MySQL高阶/72 缓冲池中的页是如何进行管理的.png:
+    newFile: !uuid 'fcb1f021569a903b36593709ababe89ee09adb2c'
+    oldFile: null
+  /MySQL高阶/73 缓冲池采用哪种淘汰策略.png:
+    newFile: !uuid '27e0140e9cbecbff31225ec76938e45f55c9f27c'
+    oldFile: null
+  /MySQL高阶/74 怎么查看当前缓冲池的信息+小结.png:
+    newFile: !uuid '5898e937fad37de4b6fd8a1dc47c4c6993109c34'
+    oldFile: null
+  /MySQL高阶/75 变更缓冲区的作用.png:
+    newFile: !uuid '241b0d9f09b188b77e412cf8ff5088b8d5b4faf6'
+    oldFile: null
+  /MySQL高阶/76 变更缓冲区的主要配置项都有哪些.png:
+    newFile: !uuid '9f32d4873289863703ab63d60b6bf748589427fd'
+    oldFile: null
+  /MySQL高阶/77 自适应哈希索引的作用.png:
+    newFile: !uuid 'dcbfaa315ae6301ba2d3499a3a7d85305d043b26'
+    oldFile: null
+  /MySQL高阶/78 日志缓冲区简介+内存结构小结.png:
+    newFile: !uuid '370f33c46154fd6d02f212b3067ae84fd9515a85'
+    oldFile: null
+  /MySQL高阶/79 InnoDB存储引擎包含哪些磁盘文件+系统表空间的作用.png:
+    newFile: !uuid '0d798f95bdf9969c68e10ec64688e484dca62a59'
+    oldFile: null
+  /MySQL高阶/8 mysql 客户端命令.png:
+    newFile: !uuid '51e75d12bb64f8e754afcbe8b75c189f58b57562'
+    oldFile: null
+  /MySQL高阶/80 系统表空间都有哪些可以配置的选项.png:
+    newFile: !uuid 'f95c4eabe65d2286dfc9263a8e9b7dd13e7b2531'
+    oldFile: null
+  /MySQL高阶/81 独立表空间的作用和优缺点.png:
+    newFile: !uuid '98c656ee98173a3b2bc0af38701254535e481890'
+    oldFile: null
+  /MySQL高阶/82 撤销表空间的作用+创建方式.png:
+    newFile: !uuid 'f0eaf717e02e3aa51b4f5075cdadaae4a243d191'
+    oldFile: null
+  /MySQL高阶/83 删除撤销表空间+查看撤销表空间的状态.png:
+    newFile: !uuid 'e07fee76613d0b03a88f9ff97058af63502d93db'
+    oldFile: null
+  /MySQL高阶/84 什么是撤销日志.png:
+    newFile: !uuid 'b3aecfd8e8ad154053976323d79f510da4488bfc'
+    oldFile: null
+  /MySQL高阶/85 撤销日志在撤销表空间中的组织形式是怎样的.png:
+    newFile: !uuid 'f62d22aeab3e1cac2c9699f74ddb49f6420ff942'
+    oldFile: null
+  /MySQL高阶/86 撤销日志的格式是怎样的.png:
+    newFile: !uuid '547d7c13eae6c469d9f9d1868cdcc53435016f8e'
+    oldFile: null
+  /MySQL高阶/87 撤销日志是如何组织在一起的.png:
+    newFile: !uuid '2d1de9ac2cefa8c815b68273e046868d1cfa6433'
+    oldFile: null
+  /MySQL高阶/88 撤销日志的分类+计算最大支持并发事务数量.png:
+    newFile: !uuid '7f24a40d67abd8848cf9c4b1b2e7d9ced127fa44'
+    oldFile: null
+  /MySQL高阶/89 如何理解Undo链.png:
+    newFile: !uuid '77b7c16d575ca236d72d38a8ca79b5a9abf70e85'
+    oldFile: null
+  /MySQL高阶/9 test_db.sql:
+    newFile: !uuid '33e520a570dff8f52a6db81246118cf9f03041f4'
+    oldFile: null
+  /MySQL高阶/9 从.sql文件执行 SQL 语句.png:
+    newFile: !uuid '4740a5dc85f0eda4ce538d583fcc1cc9a7bfa6b6'
+    oldFile: null
+  /MySQL高阶/90 撤销日志为什么需要落盘.png:
+    newFile: !uuid '4c02dbddd69236c77bbe007bafa4a452a776b065'
+    oldFile: null
+  /MySQL高阶/91 双写缓冲区简介.png:
+    newFile: !uuid 'a6de2028ba861f4eb59f28cddd3805ec0e967150'
+    oldFile: null
+  /MySQL高阶/92 重做日志的作用和写入时机.png:
+    newFile: !uuid '91725e297be4797512c45a5cef77022c169aab2c'
+    oldFile: null
+  /MySQL高阶/93 Redo Log的格式是怎样的.png:
+    newFile: !uuid '14284b36d6f03c44f630471cc60bd8ae1123bf60'
+    oldFile: null
+  /MySQL高阶/94 RedoLog的类型分为哪些+不同日志类型对应了哪些操作.png:
+    newFile: !uuid '03fba99c163fa033bb0b26a347c233ed77c8b3e2'
+    oldFile: null
+  /MySQL高阶/95 什么是Mini-Transaction.png:
+    newFile: !uuid 'b821c0647c1251539b70be88041d17ca6b3119ae'
+    oldFile: null
+  /MySQL高阶/96 RedoLog的是如何写入缓冲区的.png:
+    newFile: !uuid '98c497c057da71b9c45984793159e45b1465d807'
+    oldFile: null
+  /MySQL高阶/97 Redo Log的刷盘时机.png:
+    newFile: !uuid '1c708629ef29ffa87c155225dd3c7cfa04b9e07b'
+    oldFile: null
+  /MySQL高阶/98 Redo Log对应磁盘上的文件是什么.png:
+    newFile: !uuid '4311e079dc5d70f42bf7dfde821a899a9312330b'
+    oldFile: null
+  /MySQL高阶/99 Redo Log日志文件的格式+什么是CHECKPOINT(检查点).png:
+    newFile: !uuid '146a87c142f3c351fbc1113a36ccc9eecdc3e0c6'
+    oldFile: null
+gitCommitId: !uuid '3db538e495c22f3e31a098bb397b724187d8bb4b'
 renames: {
   }
-revisionId: 23
+revisionId: 24
