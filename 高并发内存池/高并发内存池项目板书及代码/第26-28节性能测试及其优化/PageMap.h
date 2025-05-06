@@ -7,7 +7,6 @@ class TCMalloc_PageMap1 {
 private:
 	static const int LENGTH = 1 << BITS;
 	void** array_;
-
 public:
 	typedef uintptr_t Number;
 
